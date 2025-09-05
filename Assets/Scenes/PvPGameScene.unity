@@ -478,6 +478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4867591547466378970, guid: 481eff9e760e0e04485b9f9595385a3d, type: 3}
+      propertyPath: m_text
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 7130585790505108383, guid: 481eff9e760e0e04485b9f9595385a3d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -584,6 +588,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 327063609452515445, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967051278705036463, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_text
+      value: View Almanac
+      objectReference: {fileID: 0}
     - target: {fileID: 3209378682077654349, guid: efe3e86873f14154791fa09ead96936f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -592,6 +604,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SwitchCanvasById
       objectReference: {fileID: 0}
+    - target: {fileID: 6631551224509147749, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_text
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 6938283073892242331, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_text
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941516145201898909, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941516145201898909, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7803229727580228853, guid: efe3e86873f14154791fa09ead96936f, type: 3}
       propertyPath: m_Name
       value: MenuCanvas
@@ -599,6 +627,14 @@ PrefabInstance:
     - target: {fileID: 7803229727580228853, guid: efe3e86873f14154791fa09ead96936f, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030500180484739130, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8030500180484739130, guid: efe3e86873f14154791fa09ead96936f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8544020049237398037, guid: efe3e86873f14154791fa09ead96936f, type: 3}
       propertyPath: m_Pivot.x
