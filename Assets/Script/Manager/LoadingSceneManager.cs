@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEngine.Rendering.HDROutputUtils;
 
 public class LoadingSceneManager : MonoBehaviour
 {
