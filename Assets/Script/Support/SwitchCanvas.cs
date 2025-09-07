@@ -1,9 +1,29 @@
 using UnityEngine;
 
+public enum CanvasID
+{
+    GameCanvas,
+    MenuCanvas,
+    GameOverCanvas
+}
+
 public class SwitchCanvas : MonoBehaviour
 {
     [SerializeField] private Canvas[] _canvasList;
     private int _isActive = 0;
+
+    public static SwitchCanvas Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+    }
 
     public void SwitchCanvasById(int id)
     {
