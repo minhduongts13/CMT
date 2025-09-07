@@ -1677,6 +1677,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mainmenuButton: {fileID: 1264126324767437593}
+  _almanacButton: {fileID: 5834296543038604665}
+  _gameoverButton: {fileID: 919287254472528561}
+  _backButton: {fileID: 3209378682077654349}
 --- !u!1 &8013822776778405219
 GameObject:
   m_ObjectHideFlags: 0

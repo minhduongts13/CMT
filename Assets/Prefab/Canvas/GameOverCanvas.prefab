@@ -366,19 +366,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4974933573580206360}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SwitchCanvas, Assembly-CSharp
-        m_MethodName: SwitchCanvasById
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &5953133752021910321
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +379,7 @@ GameObject:
   - component: {fileID: 3793798040693367961}
   - component: {fileID: 834783636346407109}
   - component: {fileID: 6531877087834466683}
+  - component: {fileID: 8407986768316352834}
   m_Layer: 5
   m_Name: GameOverCanvas
   m_TagString: Untagged
@@ -484,6 +473,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8407986768316352834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5953133752021910321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97d4212aa5b2744abb81fbdab6cbfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _continueButton: {fileID: 4099315667158377931}
 --- !u!1 &7774697322131113036
 GameObject:
   m_ObjectHideFlags: 0

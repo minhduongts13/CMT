@@ -5,11 +5,11 @@ using UnityEngine;
 public class ShowText : MonoBehaviour
 {
     Coroutine _mCoroutine;
-    private TextMeshProUGUI _textMeshPro;
+    private TMP_Text _textMeshPro;
 
     private void Awake()
     {
-        _textMeshPro = GetComponent<TextMeshProUGUI>();
+        _textMeshPro = GetComponent<TMP_Text>();
     }
 
     private void OnEnable()
@@ -39,7 +39,7 @@ public class ShowText : MonoBehaviour
         SetAlpha(_textMeshPro, 255f);
     }
 
-    private void SetAlpha(TextMeshProUGUI textMeshPro, float alpha)
+    private void SetAlpha(TMP_Text textMeshPro, float alpha)
     {
         Color c = textMeshPro.color;
         c.a = Mathf.Clamp01(alpha);
