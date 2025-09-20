@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Conehead_Zombie
+  m_EditorClassIdentifier: 
+  _cost: 100
+  _almanacImage: {fileID: 2578669366610939324, guid: f4b18e1d3ce60cc49b9f162f1af63f04, type: 3}
+  _name: Conehead Zombie
+  _ingameImage: {fileID: 4228464667789226176, guid: 278d2609774ddca47b841c426dd2a37f, type: 3}
+  _recharge: 0.2
+  _description: His traffic cone headpiece makes him twice as tough as normal zombies.
+  _damage: 0
+  _toughness: 50
+  _materialProduction: 0
+  _special: 

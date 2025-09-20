@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Magnet-shroom
+  m_EditorClassIdentifier: 
+  _cost: 100
+  _almanacImage: {fileID: 3684270628297136737, guid: 6164824555da2fa43b8f95ae6b0bb40f, type: 3}
+  _name: Magnet-shroom
+  _ingameImage: {fileID: -6728659689131062258, guid: c599beac7246b9444ac00782a52c3ef2, type: 3}
+  _recharge: 0.8
+  _description: Magnet-shrooms remove helmets and other metal objects from zombies.
+  _damage: 0
+  _toughness: 0
+  _materialProduction: 0
+  _special: 

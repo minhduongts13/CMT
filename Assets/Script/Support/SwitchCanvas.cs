@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public enum CanvasID
+public enum InGameCanvas
 {
     GameCanvas,
     MenuCanvas,
-    GameOverCanvas
+    GameOverCanvas,
 }
 
 public class SwitchCanvas : MonoBehaviour

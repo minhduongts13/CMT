@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: CherryBomb
+  m_EditorClassIdentifier: 
+  _cost: 150
+  _almanacImage: {fileID: 3336554275580186400, guid: 19b18b4e9ae60be498347714dcea17de, type: 3}
+  _name: CherryBomb
+  _ingameImage: {fileID: 3336554275580186400, guid: 4e772c1f06654424796ed2c3ec8ed999, type: 3}
+  _recharge: 1
+  _description: Cherry Bomb will self-destruct after placing.
+  _damage: 1000
+  _toughness: 0
+  _sunProduction: 0
+  _special: blow up all zombies in an area.

@@ -43,7 +43,7 @@ public class TimeManager : MonoBehaviour
         if (remaining <= 0f)
         {
             _hasEnded = true;
-            SwitchCanvas.Instance.SwitchCanvasById((int)CanvasID.GameOverCanvas);
+            SwitchCanvas.Instance.SwitchCanvasById((int)InGameCanvas.GameOverCanvas);
         }
     }
 }

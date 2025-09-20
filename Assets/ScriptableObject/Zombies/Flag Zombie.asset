@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Flag Zombie
+  m_EditorClassIdentifier: 
+  _cost: 300
+  _almanacImage: {fileID: 3078051009338526225, guid: 846eee3583f80f640b502c1420fa3d35, type: 3}
+  _name: Flag Zombie
+  _ingameImage: {fileID: 8080566455321732982, guid: 4e6dc7e9bc8215c4c969f63ce0b6eab4, type: 3}
+  _recharge: 2
+  _description: Flag Zombie marks the arrival of a huge pile of zombies.
+  _damage: 0
+  _toughness: 10
+  _materialProduction: 0
+  _special: can spawn zombies from grave.
