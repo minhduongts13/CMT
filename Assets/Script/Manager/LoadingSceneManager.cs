@@ -1,7 +1,12 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEngine.Rendering.HDROutputUtils;
+
+public enum TypeGame
+{
+    PvP,
+    PvE
+}
 
 public class LoadingSceneManager : MonoBehaviour
 {
@@ -11,6 +16,9 @@ public class LoadingSceneManager : MonoBehaviour
     private Coroutine _loadSceneCoroutine;
     private AsyncOperation _operation = null;
     private bool _isLoading = false;
+    private bool _typeGame;
+
+    public bool TypeGame => _typeGame;
 
     public static LoadingSceneManager Instance { get; private set; }
 
@@ -30,6 +38,8 @@ public class LoadingSceneManager : MonoBehaviour
     {
         if (_isLoading) return;
         if (SceneManager.GetSceneByName(SceneName).isLoaded) return;
+        if (SceneName == "PvPGameScene") _typeGame = false;
+        else if (SceneName == "PvEGameScene") _typeGame = true;
         if (_loadSceneCoroutine != null) StopCoroutine(_loadSceneCoroutine);
         _loadSceneCoroutine = StartCoroutine(LoadSceneAsync(SceneName));
     }
