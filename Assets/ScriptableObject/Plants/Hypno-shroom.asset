@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Hypno-shroom
+  m_EditorClassIdentifier: 
+  _cost: 75
+  _almanacImage: {fileID: -8840312540620504914, guid: c8fa8419b7bd5254499358888a2ce11a, type: 3}
+  _name: Hypno-shroom
+  _ingameImage: {fileID: -8840312540620504914, guid: d21b0078ec3678144aa4dbcd37ad8e47, type: 3}
+  _recharge: 1
+  _description: When eaten, hypno-shrooms will make a zombie turn around and mind
+    control.
+  _damage: 0
+  _toughness: 0
+  _materialProduction: 0
+  _special: makes a zombie fight for you

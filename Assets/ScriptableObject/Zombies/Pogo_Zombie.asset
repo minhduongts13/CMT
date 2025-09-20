@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Pogo_Zombie
+  m_EditorClassIdentifier: 
+  _cost: 175
+  _almanacImage: {fileID: -6039023415392687281, guid: 4ffe90958c8d22d4e9e349ef564c3832, type: 3}
+  _name: Pogo Zombie
+  _ingameImage: {fileID: 5656856293827164735, guid: d348b97cdf4677545974de122c54fc1e, type: 3}
+  _recharge: 0.5
+  _description: Pogo Zombie hops to bypass your defenses.
+  _damage: 0
+  _toughness: 0
+  _materialProduction: 0
+  _special: hops over plants, weakness is magnet-shroom.

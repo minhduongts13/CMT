@@ -11,14 +11,14 @@ public class SettingUI : MonoBehaviour
     private void OnEnable()
     {
         _mainmenuButton.onClick.AddListener(() => LoadingSceneManager.Instance.LoadSceneByName("MainMenuScene"));
-        _gameoverButton.onClick.AddListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)CanvasID.GameOverCanvas));
-        _backButton.onClick.AddListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)CanvasID.GameCanvas));
+        _gameoverButton.onClick.AddListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)InGameCanvas.GameOverCanvas));
+        _backButton.onClick.AddListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)InGameCanvas.GameCanvas));
     }
 
     private void OnDisable()
     {
         _mainmenuButton.onClick.RemoveListener(() => LoadingSceneManager.Instance.LoadSceneByName("MainMenuScene"));
-        _gameoverButton.onClick.RemoveListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)CanvasID.GameOverCanvas));
-        _backButton.onClick.RemoveListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)CanvasID.GameCanvas));
+        _gameoverButton.onClick.RemoveListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)InGameCanvas.GameOverCanvas));
+        _backButton.onClick.RemoveListener(() => SwitchCanvas.Instance.SwitchCanvasById((int)InGameCanvas.GameCanvas));
     }
 }

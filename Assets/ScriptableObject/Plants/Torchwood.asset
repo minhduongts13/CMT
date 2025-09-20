@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Torchwood
+  m_EditorClassIdentifier: 
+  _cost: 175
+  _almanacImage: {fileID: -5890867567501359090, guid: 49e86db697dc977469ed88542cc02441, type: 3}
+  _name: Torchwood
+  _ingameImage: {fileID: -5890867567501359090, guid: a71b9c711f32199488436bf22ed6ac9f, type: 3}
+  _recharge: 0.8
+  _description: Torchwood turn peas that pass through them into fireballs.
+  _damage: 0
+  _toughness: 0
+  _materialProduction: 0
+  _special: Fireballs deal twice as much as damage to nearby zombies on impact

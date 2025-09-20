@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Umbrella_Leaf
+  m_EditorClassIdentifier: 
+  _cost: 100
+  _almanacImage: {fileID: -8679224699726472390, guid: 7b125d6cd5ea72449a27a6320819183a, type: 3}
+  _name: Umbrella_Leaf
+  _ingameImage: {fileID: -8679224699726472390, guid: 37a1d25c24b09ce40988102e6fea24ad, type: 3}
+  _recharge: 0.6
+  _description: Umbrella Leaves protect nearby plants from bungees and catapults
+  _damage: 0
+  _toughness: 0
+  _materialProduction: 0
+  _special: 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Dolphin_Rider_Zombie
+  m_EditorClassIdentifier: 
+  _cost: 150
+  _almanacImage: {fileID: -2406244467651365239, guid: ebd55895c1369184b9d351c6ce9cea29, type: 3}
+  _name: Dolphin Rider Zombie
+  _ingameImage: {fileID: -2406244467651365239, guid: ae48dc617718e5248b5496c37b849a47, type: 3}
+  _recharge: 0.5
+  _description: Dolphin Rider Zombies use dolphins to exploit weaknesses in your
+    pool defense.
+  _damage: 0
+  _toughness: 50
+  _materialProduction: 0
+  _special: jumps over the first plant he runs into
