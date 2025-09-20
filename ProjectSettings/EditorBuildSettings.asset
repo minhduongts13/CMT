@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PvPGameScene.unity
     guid: 30cc4de8907fda846a856924fb6086f8
+  - enabled: 1
+    path: Assets/Scenes/AlmanacScene.unity
+    guid: 55b85040ecb58774385461a03d09af71
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

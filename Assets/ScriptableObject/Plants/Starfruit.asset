@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Starfruit
+  m_EditorClassIdentifier: 
+  _cost: 125
+  _almanacImage: {fileID: -5195278561642766639, guid: b6cb21db293e9b34896eb6cc51ed1680, type: 3}
+  _name: Starfruit
+  _ingameImage: {fileID: -5195278561642766639, guid: 055b05b69168256409991e1d459ccd24, type: 3}
+  _recharge: 0.85
+  _description: Starfruits shoot stars in 5 directions.
+  _damage: 120
+  _toughness: 0
+  _materialProduction: 0
+  _special: 

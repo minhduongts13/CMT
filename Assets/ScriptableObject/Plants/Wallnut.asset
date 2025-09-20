@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Wallnut
+  m_EditorClassIdentifier: 
+  _cost: 50
+  _almanacImage: {fileID: -7538439290028722043, guid: 98709a026ba3dc743967df24bd15e0a1, type: 3}
+  _name: Wall-nut
+  _ingameImage: {fileID: -7538439290028722043, guid: 0e8e131a98849b542ac529341e43e54d, type: 3}
+  _recharge: 1.5
+  _description: Wall-nuts have hard shells which you can use to protect your other
+    plants.
+  _damage: 0
+  _toughness: 100
+  _sunProduction: 0
+  _special: 
