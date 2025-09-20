@@ -1,5 +1,5 @@
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Almanac_Object", menuName = "Scriptable Objects/Almanac_Object")]
 public class Almanac_Object : ScriptableObject
@@ -17,6 +17,8 @@ public class Almanac_Object : ScriptableObject
     [SerializeField] private float _toughness;
     [SerializeField] private float _materialProduction;
     [SerializeField] private string _special;
+    [Header("Merge")]
+    [SerializeField] List<string> _mergeMaterial;
 
     public float Cost => _cost;
     public Sprite AlmanacImage => _almanacImage;
@@ -28,4 +30,5 @@ public class Almanac_Object : ScriptableObject
     public float ToughNess => _toughness;
     public float MaterialProduction => _materialProduction;
     public string Special => _special;
+    public List<string> MergeMaterial => _mergeMaterial;
 }
