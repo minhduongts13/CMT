@@ -2,16 +2,17 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Zombie
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Zombie
   - Water
   - UI
-  - 
+  - Bullet
   - 
   - 
   - 
@@ -41,3 +42,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Plant
+    uniqueID: 2076969575
+    locked: 0
+  - name: Zombie
+    uniqueID: 4209923951
+    locked: 0
+  m_RenderingLayers:
+  - Default
