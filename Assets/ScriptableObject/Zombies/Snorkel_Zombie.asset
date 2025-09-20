@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Snorkel_Zombie
+  m_EditorClassIdentifier: 
+  _cost: 125
+  _almanacImage: {fileID: -4514675350176803685, guid: ca6838150501c9349858c8a0949515f6, type: 3}
+  _name: Snorkel Zombie
+  _ingameImage: {fileID: -3189752844913880349, guid: 95a113201c42a934d9737c1c7d807c64, type: 3}
+  _recharge: 0.3
+  _description: Snorkel zombies can swim underwater.
+  _damage: 0
+  _toughness: 10
+  _materialProduction: 0
+  _special: submerges to avoid attacks.

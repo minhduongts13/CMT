@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Sea-shroom
+  m_EditorClassIdentifier: 
+  _cost: 0
+  _almanacImage: {fileID: -32026852286559615, guid: 46c73584da5112a4d874e1db9e2fcb48, type: 3}
+  _name: Sea-shroom
+  _ingameImage: {fileID: -32026852286559615, guid: 3e105a39b831524449b58b91a92ac177, type: 3}
+  _recharge: 1.6
+  _description: Sea-shrooms are aquatic plants that shoot short ranged spores.
+  _damage: 100
+  _toughness: 0
+  _materialProduction: 0
+  _special: 

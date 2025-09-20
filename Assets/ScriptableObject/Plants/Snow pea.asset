@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Snow pea
+  m_EditorClassIdentifier: 
+  _cost: 175
+  _almanacImage: {fileID: 1700536479391938751, guid: d9ca7480bc0df6745a226674c3fd0364, type: 3}
+  _name: Snow pea
+  _ingameImage: {fileID: 1700536479391938751, guid: 43933170a91a66c479666183d3ef1c09, type: 3}
+  _recharge: 0
+  _description: Snow peas shoot frozen peas that damage and slow the enemy.
+  _damage: 125
+  _toughness: 0
+  _materialProduction: 0
+  _special: shows zombies
+  _mergeMaterial:
+  - Ice-shroom
+  - Peashooter
