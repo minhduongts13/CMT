@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Grave3
   m_EditorClassIdentifier: 
   _cost: 0
-  _almanacImage: {fileID: 0}
-  _name: 
-  _ingameImage: {fileID: 0}
+  _almanacImage: {fileID: 8999590864528827458, guid: 98e37abb2c8fc9e4883d9693fc85c5ba, type: 3}
+  _name: Grave3
+  _ingameImage: {fileID: -2010261297, guid: a64e42ae2efa7a74db967c5738f2973b, type: 3}
   _recharge: 0
   _description: 
   _damage: 0
   _toughness: 0
-  _materialProduction: 0
+  _materialProduction: 3
   _special: 
   _mergeMaterial: []
