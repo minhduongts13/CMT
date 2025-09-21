@@ -1,9 +1,8 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AlmanacCardRender : MonoBehaviour
+public class CardRender : MonoBehaviour
 {
     [SerializeField] private TMP_Text _name;
     [SerializeField] private Image _image;
@@ -40,6 +39,7 @@ public class AlmanacCardRender : MonoBehaviour
 
     private string RechargeText(float recharge)
     {
+        if (recharge == 0f) return "none";
         if (recharge < 1f) return "fast";
         if (recharge < 2f) return "slow";
         return "very slow";
@@ -51,6 +51,16 @@ public class AlmanacCardRender : MonoBehaviour
         _image.sprite = almanacObject.InGameImage;
         _description.text = HandleDescripttion(almanacObject) + Colored(almanacObject.Description, "6B4400");
         _recharge.text = Colored(RechargeText(almanacObject.Recharge), "FF4444");
+    }
+
+    public string RenderFormula(Almanac_Object almanac_Object)
+    {
+        string formula = "Formula: " + almanac_Object.MergeMaterial[0];
+        for (int i = 1; i < almanac_Object.MergeMaterial.Count; i++)
+        {
+            formula += ", " + almanac_Object.MergeMaterial[i];
+        }
+        return formula + ".";
     }
 
     private string HandleDescripttion(Almanac_Object plant)
@@ -76,6 +86,10 @@ public class AlmanacCardRender : MonoBehaviour
         if (!string.IsNullOrEmpty(plant.Special))
         {
             result += $"{Colored("Special:", "6B4400")} {Colored(plant.Special, "FF4444")}\n";
+        }
+        if (plant.MergeMaterial.Count > 0)
+        {
+            result += $"{Colored(RenderFormula(plant), "47A0F2")} \n";
         }
         return result;
     }

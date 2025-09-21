@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f14ddc92f2a3aaa4c838e63863238c2c
+guid: be5f9c6c00dd27b43a6e3744256d5477
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8741824698267880440
-    second: Melon-pult_0
+      213: 4948604307877195538
+    second: Splitpea_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Melon-pult_0
+      name: Splitpea_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 3
-        width: 64
-        height: 64
+        width: 594
+        height: 448
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 804b10bc0cccea680800000000000000
-      internalID: -8741824698267880440
+      spriteID: 21fecf03669fca440800000000000000
+      internalID: 4948604307877195538
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f5f777463404b9540b86993c0d8e7d4a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Melon-pult_0: -8741824698267880440
+      Splitpea_0: 4948604307877195538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

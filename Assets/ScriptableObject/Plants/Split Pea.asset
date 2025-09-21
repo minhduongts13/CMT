@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Name: Split Pea
+  m_EditorClassIdentifier: 
+  _cost: 0
+  _almanacImage: {fileID: 4948604307877195538, guid: be5f9c6c00dd27b43a6e3744256d5477, type: 3}
+  _name: Split Pea
+  _ingameImage: {fileID: -5783797346552073941, guid: ce48a63a849212e49bbc1cd5fda89dc2, type: 3}
+  _recharge: 0
+  _description: Split Peas shoot peas forward and backwards.
+  _damage: 150
+  _toughness: 0
+  _materialProduction: 0
+  _special: shoot one pea forward and two peas backwards.
+  _mergeMaterial:
+  - Peashooter
+  - Repeater
