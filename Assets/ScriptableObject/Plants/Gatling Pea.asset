@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 0
   _special: 
   _mergeMaterial:
-  - Repeater
-  - Repeater
+  - {fileID: -1731964075387253349, guid: c4c3d28fb528cb44e8b3b5be0627beae, type: 3}
+  - {fileID: -1731964075387253349, guid: c4c3d28fb528cb44e8b3b5be0627beae, type: 3}
