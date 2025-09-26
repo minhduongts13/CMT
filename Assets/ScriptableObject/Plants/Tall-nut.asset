@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 0
   _special: can't be vaulted or jumped over
   _mergeMaterial:
-  - Wall-nut
-  - Wall-nut
+  - {fileID: -7538439290028722043, guid: 98709a026ba3dc743967df24bd15e0a1, type: 3}
+  - {fileID: -7538439290028722043, guid: 98709a026ba3dc743967df24bd15e0a1, type: 3}

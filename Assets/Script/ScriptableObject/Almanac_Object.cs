@@ -18,7 +18,7 @@ public class Almanac_Object : ScriptableObject
     [SerializeField] private float _materialProduction;
     [SerializeField] private string _special;
     [Header("Merge")]
-    [SerializeField] List<string> _mergeMaterial;
+    [SerializeField] List<Sprite> _mergeMaterial;
 
     public float Cost => _cost;
     public Sprite AlmanacImage => _almanacImage;
@@ -30,5 +30,5 @@ public class Almanac_Object : ScriptableObject
     public float ToughNess => _toughness;
     public float MaterialProduction => _materialProduction;
     public string Special => _special;
-    public List<string> MergeMaterial => _mergeMaterial;
+    public List<Sprite> MergeMaterial => _mergeMaterial;
 }

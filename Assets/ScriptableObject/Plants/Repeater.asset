@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 0
   _special: 
   _mergeMaterial:
-  - Peashooter
-  - Peashooter
+  - {fileID: -3070453432627086885, guid: 2fa579922096918429030a2627b523fc, type: 3}
+  - {fileID: -3070453432627086885, guid: 2fa579922096918429030a2627b523fc, type: 3}
