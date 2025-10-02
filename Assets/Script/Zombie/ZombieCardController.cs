@@ -40,7 +40,7 @@ public class ZombieCardController : MonoBehaviour, IPointerDownHandler, IBeginDr
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(eventData.position);
         worldPos.z = 0;
 
-        draggingZombieInstance = Instantiate(myZombieCardSO.zombiePrefab, worldPos, Quaternion.identity);
+        draggingZombieInstance = Instantiate(myZombieCardSO.ZombiePrefab, worldPos, Quaternion.identity);
 
         // Setup zombie
         Image iconImage = transform.Find("Zombie Icon").GetComponent<Image>();
@@ -49,29 +49,37 @@ public class ZombieCardController : MonoBehaviour, IPointerDownHandler, IBeginDr
         {
             sr.sprite = iconImage.sprite;
 
-            // TĂNG SIZE cho zombie (từ 3.5f lên 6.5f)
             float targetHeight = 6.5f;
             float spriteHeight = sr.sprite.bounds.size.y;
             float scale = targetHeight / spriteHeight;
             draggingZombieInstance.transform.localScale = new Vector3(scale, scale, 1);
 
-            // TẮT HOẠT ĐỘNG khi đang kéo
-            ZombieController zm = draggingZombieInstance.GetComponent<ZombieController>();
-            if (zm != null)
+            // SETUP NEW ZOMBIE COMPONENT - ĐÚNG CÁCH
+            Zombie zombieComponent = draggingZombieInstance.GetComponent<Zombie>();
+            if (zombieComponent != null)
             {
-                zm.zombieCardSO = myZombieCardSO;
-                zm.isDragging = true;
-                zm.enabled = false; // TẮT script để zombie không hoạt động
+                zombieComponent.SetZombieCardSO(myZombieCardSO);
+                zombieComponent.SetDragging(true); // SỬ DỤNG SETDRAGGING THAY VÌ ISDRAGGING
+                Debug.Log($"[ZOMBIE CARD] Zombie component setup with SO: {myZombieCardSO.name}");
             }
 
-            // TẮT movement component nếu có
+            // LEGACY ZOMBIECONTROLLER SUPPORT
+            Zombie zm = draggingZombieInstance.GetComponent<Zombie>();
+            if (zm != null)
+            {
+                zm.ZombieCardSO = myZombieCardSO;
+                zm.IsDragging = true;
+                zm.enabled = false; // Disable while dragging
+            }
+
+            // Setup physics
             Rigidbody2D rb = draggingZombieInstance.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.bodyType = RigidbodyType2D.Kinematic; // Không bị physics ảnh hưởng
+                rb.bodyType = RigidbodyType2D.Kinematic;
             }
 
-            // Làm mờ zombie khi đang kéo
+            // Make transparent while dragging
             Color zombieColor = sr.color;
             zombieColor.a = 0.6f;
             sr.color = zombieColor;
@@ -123,7 +131,6 @@ public class ZombieCardController : MonoBehaviour, IPointerDownHandler, IBeginDr
 
         SlotManagerCollider nearestSlot = FindNearestZombieSlot();
 
-        // SỬA: Bỏ check IsEmpty() cho zombie slot
         if (nearestSlot != null && nearestSlot.CanPlaceObject(draggingZombieInstance))
         {
             float finalDistance = Vector2.Distance(draggingZombieInstance.transform.position, nearestSlot.transform.position);
@@ -142,12 +149,32 @@ public class ZombieCardController : MonoBehaviour, IPointerDownHandler, IBeginDr
                         sr.color = zombieColor;
                     }
 
-                    ZombieController zm = draggingZombieInstance.GetComponent<ZombieController>();
+                    // SETUP NEW ZOMBIE COMPONENT
+                    Zombie zombieComponent = draggingZombieInstance.GetComponent<Zombie>();
+                    if (zombieComponent != null)
+                    {
+                        zombieComponent.SetZombieCardSO(myZombieCardSO);
+                        zombieComponent.SetZombieRow(nearestSlot.slotRow);
+                        zombieComponent.SetDragging(false); // STOP DRAGGING
+                        zombieComponent.Spawn(); // KHỞI TẠO
+                        Debug.Log($"[ZOMBIE CARD] Zombie setup: Row {nearestSlot.slotRow}, Health: {zombieComponent.Health}");
+                    }
+
+                    // LEGACY ZOMBIECONTROLLER SUPPORT
+                    Zombie zm = draggingZombieInstance.GetComponent<Zombie>();
                     if (zm != null)
                     {
-                        zm.isDragging = false;
+                        zm.IsDragging = false;
                         zm.enabled = true;
+                        zm.CurrentRow = nearestSlot.slotRow;
                     }
+
+                    // // Enable physics
+                    // Rigidbody2D rb = draggingZombieInstance.GetComponent<Rigidbody2D>();
+                    // if (rb != null)
+                    // {
+                    //     rb.bodyType = RigidbodyType2D.Dynamic;
+                    // }
 
                     draggingZombieInstance = null;
                     Debug.Log("Zombie placed successfully!");
