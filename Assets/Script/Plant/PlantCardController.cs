@@ -75,7 +75,7 @@ public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDra
         SlotManagerCollider[] allSlots = FindObjectsByType<SlotManagerCollider>(FindObjectsSortMode.None);
         SlotManagerCollider nearestSlot = null;
         float nearestDistance = float.MaxValue;
-        float maxAllowedDistance = 2.0f; // Khoảng cách tối đa cho phép đặt
+        float maxAllowedDistance = 20.0f; // Khoảng cách tối đa cho phép đặt
 
         foreach (SlotManagerCollider slot in allSlots)
         {
@@ -85,7 +85,13 @@ public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDra
             // Bỏ qua slot đã có object
             if (!slot.IsEmpty()) continue;
 
-            float distance = Vector2.Distance(draggingPlantInstance.transform.position, slot.transform.position);
+            var dragPlantRect = draggingPlantInstance.GetComponent<RectTransform>();
+            var slotRect = slot.GetComponent<RectTransform>();
+            // float xDistance = dragPlantRect.position.x - slotRect.position.x;
+            // float yDistance = dragPlantRect.position.y - slotRect.position.y;
+            // Debug.Log($"X Distance to slot {slot.name}: {xDistance}, Y Distance: {yDistance}");
+            // Debug.Log($"Slot Width: {slotRect.rect.width}, Slot Height: {slotRect.rect.height}");
+            float distance = Vector2.Distance(dragPlantRect.position, slotRect.position);
 
             // CHỈ xét các slot trong phạm vi cho phép
             if (distance <= maxAllowedDistance && distance < nearestDistance)
@@ -93,7 +99,14 @@ public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDra
                 nearestDistance = distance;
                 nearestSlot = slot;
             }
+            // if (Mathf.Abs(xDistance) <= slotRect.rect.width / 2 && Mathf.Abs(yDistance) <= slotRect.rect.height / 2)
+            // {
+            //     nearestSlot = slot;
+            //     return nearestSlot;
+            // }
+
         }
+        Debug.Log($"Distance to slot {nearestSlot.name}: {nearestDistance}");
 
         return nearestSlot;
     }
@@ -114,7 +127,7 @@ public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDra
         {
             // Kiểm tra khoảng cách một lần nữa để chắc chắn
             float finalDistance = Vector2.Distance(draggingPlantInstance.transform.position, nearestSlot.transform.position);
-            if (finalDistance <= 1.0f) // Cùng giá trị maxAllowedDistance
+            if (finalDistance <= 20.0f) // Cùng giá trị maxAllowedDistance
 
             {
                 if (nearestSlot.PlacePlant(draggingPlantInstance))
