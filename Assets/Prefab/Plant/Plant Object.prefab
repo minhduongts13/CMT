@@ -40,9 +40,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2164036266980625180}
-  - component: {fileID: 9014749067327123922}
   - component: {fileID: 2685465486943492553}
-  - component: {fileID: 6275574823479031914}
+  - component: {fileID: -5572317053629551066}
   m_Layer: 0
   m_Name: Plant Object
   m_TagString: Untagged
@@ -67,18 +66,6 @@ Transform:
   - {fileID: 7116696741406206505}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9014749067327123922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2250418414784415073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1c0e171f3f4f464a8f6c8f4d3fcc566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &2685465486943492553
 AudioSource:
   m_ObjectHideFlags: 0
@@ -176,7 +163,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6275574823479031914
+--- !u!114 &-5572317053629551066
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,32 +172,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 2250418414784415073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dc430764cabd4945af01158326931a4, type: 3}
+  m_Script: {fileID: 11500000, guid: a114827fa88e8604d931dc851f42e3e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plantRow: -1
-  plantCardSO: {fileID: 0}
-  shootPoint: {fileID: 8385870872377969587}
-  bullet: {fileID: 0}
   health: 0
   damage: 0
-  range: 0
-  speed: 0
+  moveSpeed: 0
+  attackRange: 0
+  attackRate: 0
+  currentRow: -1
+  isDead: 0
+  isDragging: 0
+  isAttacking: 0
+  isMoving: 1
+  isInitialized: 0
+  damageAudio: {fileID: 0}
+  deathAudio: {fileID: 0}
+  plantCardSO: {fileID: 0}
+  shootPoint: {fileID: 0}
+  bullet: {fileID: 0}
   zombieLayer:
     serializedVersion: 2
     m_Bits: 0
-  fireRate: 0
-  isMine: 0
-  growDuration: 0
-  explosion: {fileID: 0}
-  grownSprite: {fileID: 0}
-  blinkRate: 0
-  states: []
-  stateCount: 0
+  canShoot: 1
   isGrown: 0
-  damageAudio: {fileID: 0}
-  mineParticles: {fileID: 0}
-  isDragging: 1
+  deathParticles: {fileID: 0}
+  debugMode: 1
 --- !u!1 &2653539659566898068
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,8 +272,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2076969575
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7e3d0bd95032c834c923bfa633602965, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

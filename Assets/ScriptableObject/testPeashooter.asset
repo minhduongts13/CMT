@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
+  m_Name: testPeashooter
+  m_EditorClassIdentifier: 
+  _name: PeaShooter
+  _cardIcon: {fileID: -1260379074482062535, guid: be07743305cd63640b9107deb1ed470f, type: 3}
+  _cost: 100
+  _damage: 5
+  _toughness: 100
+  _recharge: 10
+  _range: 10000
+  _actionRate: 1
+  _speed: 10
+  _almanacImage: {fileID: -3070453432627086885, guid: 2fa579922096918429030a2627b523fc, type: 3}
+  _ingameImage: {fileID: 515972874673700000, guid: cea46be3eba150f478fb1f8d36689cfa, type: 3}
+  _description: 
+  _materialProduction: 0
+  _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 2250418414784415073, guid: 95b2479c3f6557045a146b7c50118193, type: 3}
+  _bullet: {fileID: 2863279332281906285, guid: a914e38ecaebed54684f6e9a3a3b821c, type: 3}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 8

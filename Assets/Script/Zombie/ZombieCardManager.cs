@@ -29,8 +29,8 @@ public class ZombieCardManager : MonoBehaviour
         Debug.Log("Instantiated card prefab at index: " + index);
         zombieCards[index] = newCard;
 
-        newCard.transform.Find("Zombie Icon").GetComponent<Image>().sprite = zombieCardSO[index].zombieIcon;
-        newCard.transform.Find("Zombie Cost").GetComponentInChildren<TMP_Text>().text = "" + zombieCardSO[index].cost;
+        newCard.transform.Find("Zombie Icon").GetComponent<Image>().sprite = zombieCardSO[index].CardIcon;
+        newCard.transform.Find("Zombie Cost").GetComponentInChildren<TMP_Text>().text = "" + zombieCardSO[index].Cost;
 
         ZombieCardController cardController = newCard.GetComponent<ZombieCardController>();
         if (cardController != null)

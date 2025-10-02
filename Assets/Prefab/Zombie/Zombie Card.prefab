@@ -91,9 +91,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myZombieCardSO: {fileID: 0}
-  canvas: {fileID: 0}
-  canvasGroup: {fileID: 0}
-  rectTransform: {fileID: 0}
 --- !u!1 &6899475020892381669
 GameObject:
   m_ObjectHideFlags: 0
