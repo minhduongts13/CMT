@@ -35,9 +35,9 @@ public class BulletController : MonoBehaviour
     private void CheckHitZombieInRow()
     {
         // Lấy zombie đầu tiên (gần nhất) trong row
-        ZombieController targetZombie = RowOfZombie.Instance.GetFirstZombieInRow(targetRow);
+        Zombie targetZombie = RowOfZombie.Instance.GetFirstZombieInRow(targetRow);
 
-        if (targetZombie != null && !targetZombie.isDragging)
+        if (targetZombie != null && !targetZombie.IsDragging)
         {
             Vector3 bulletPos = transform.position;
             Vector3 zombiePos = targetZombie.transform.position;
@@ -53,7 +53,7 @@ public class BulletController : MonoBehaviour
                 Debug.Log($"Bullet hit zombie {targetZombie.name} in row {targetRow}!");
 
                 // Gây sát thương
-                targetZombie.Damage(damage);
+                targetZombie.TakeDamage(damage);
                 hasHit = true;
 
                 // Hủy đạn
@@ -63,7 +63,6 @@ public class BulletController : MonoBehaviour
         }
     }
 
-    // Hàm để PlantManager gán target row (thay thế SetTarget)
     public void SetTargetRow(int row)
     {
         targetRow = row;

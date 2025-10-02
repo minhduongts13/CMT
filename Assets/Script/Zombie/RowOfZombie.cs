@@ -9,7 +9,7 @@ public class RowOfZombie : MonoBehaviour
     public int totalRows = 5;
 
     // Dictionary lưu danh sách zombie theo từng row
-    private Dictionary<int, LinkedList<ZombieController>> zombiesByRow = new Dictionary<int, LinkedList<ZombieController>>();
+    private Dictionary<int, LinkedList<Zombie>> zombiesByRow = new Dictionary<int, LinkedList<Zombie>>();
 
     private void Awake()
     {
@@ -28,25 +28,25 @@ public class RowOfZombie : MonoBehaviour
     {
         for (int i = 0; i < totalRows; i++)
         {
-            zombiesByRow[i] = new LinkedList<ZombieController>();
+            zombiesByRow[i] = new LinkedList<Zombie>();
         }
     }
 
     // Thêm zombie vào row
-    public void AddZombieToRow(int row, ZombieController zombie)
+    public void AddZombieToRow(int row, Zombie zombie)
     {
         if (zombiesByRow.ContainsKey(row))
         {
             // THÊM VÀO CUỐI LIST (không sắp xếp)
             zombiesByRow[row].AddLast(zombie);
 
-            zombie.currentRow = row;
+            zombie.SetRow(row);
             Debug.Log($"Added zombie to row {row} at end of list. Total in row: {zombiesByRow[row].Count}");
         }
     }
 
     // Xóa zombie khỏi row
-    public void RemoveZombieFromRow(int row, ZombieController zombie)
+    public void RemoveZombieFromRow(int row, Zombie zombie)
     {
         if (zombiesByRow.ContainsKey(row))
         {
@@ -56,18 +56,18 @@ public class RowOfZombie : MonoBehaviour
     }
 
     // Lấy zombie đầu tiên (gần plant nhất) trong row
-    public ZombieController GetFirstZombieInRow(int row)
+    public Zombie GetFirstZombieInRow(int row)
     {
         if (!zombiesByRow.ContainsKey(row) || zombiesByRow[row].Count == 0)
             return null;
 
         // TÌM zombie có X nhỏ nhất (gần plant nhất) trong thời gian thực
-        ZombieController nearestZombie = null;
+        Zombie nearestZombie = null;
         float minX = float.MaxValue;
 
         foreach (var zombie in zombiesByRow[row])
         {
-            if (zombie != null && !zombie.isDragging && !zombie.isDead)
+            if (zombie != null && !zombie.IsDead && !zombie.IsDragging)
             {
                 float zombieX = zombie.transform.position.x;
                 if (zombieX < minX)

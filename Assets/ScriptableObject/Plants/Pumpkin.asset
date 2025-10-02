@@ -16,9 +16,10 @@ MonoBehaviour:
   _almanacImage: {fileID: -3545189308076068758, guid: 985ade076a372b24a8c4248df1832c39, type: 3}
   _name: Pumpkin
   _ingameImage: {fileID: -3545189308076068758, guid: d508c59494198814cb4f11a6300d8b9f, type: 3}
-  _recharge: 0
+  _recharge: 1.8
   _description: Pumpkins protect planrs that are within their shells.
   _damage: 0
   _toughness: 100
   _materialProduction: 0
   _special: can be planted over another plant
+  _mergeMaterial: []
