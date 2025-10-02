@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f14ddc92f2a3aaa4c838e63863238c2c
+guid: 6d6986606b3a9d941bc7fc28be5c0a13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8741824698267880440
-    second: Melon-pult_0
+      213: 7068033944421258557
+    second: Gatling_Pea_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Melon-pult_0
+      name: Gatling_Pea_0
       rect:
         serializedVersion: 2
         x: 3
         y: 3
-        width: 64
-        height: 64
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 804b10bc0cccea680800000000000000
-      internalID: -8741824698267880440
+      spriteID: d35d1a5ac63b61260800000000000000
+      internalID: 7068033944421258557
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f5f777463404b9540b86993c0d8e7d4a
+    spriteID: 864ef1fe5ce7da843a3a26e88607a1f2
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Melon-pult_0: -8741824698267880440
+      Gatling_Pea_0: 7068033944421258557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
