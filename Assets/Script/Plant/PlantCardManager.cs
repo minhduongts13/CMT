@@ -35,8 +35,8 @@ public class PlantCardManager : MonoBehaviour
         // cooldown = plantCardSO[index].cooldown;
 
 
-        newCard.transform.Find("Plant Icon").GetComponent<Image>().sprite = plantCardSO[index].plantIcon;
-        newCard.transform.Find("Plant Cost").GetComponentInChildren<TMP_Text>().text = "" + plantCardSO[index].cost;
+        newCard.transform.Find("Plant Icon").GetComponent<Image>().sprite = plantCardSO[index].CardIcon;
+        newCard.transform.Find("Plant Cost").GetComponentInChildren<TMP_Text>().text = "" + plantCardSO[index].Cost;
         PlantCardController cardManager = newCard.GetComponent<PlantCardController>();
         if (cardManager != null)
         {
