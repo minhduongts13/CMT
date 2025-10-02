@@ -326,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6799183797838449497, guid: 481eff9e760e0e04485b9f9595385a3d, type: 3}
       propertyPath: _duration
-      value: 180
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7130585790505108383, guid: 481eff9e760e0e04485b9f9595385a3d, type: 3}
       propertyPath: m_Pivot.x
@@ -411,7 +411,7 @@ PrefabInstance:
     - target: {fileID: 9085488921153904945, guid: 481eff9e760e0e04485b9f9595385a3d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 204686021}
     - target: {fileID: 9085488921153904945, guid: 481eff9e760e0e04485b9f9595385a3d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SwitchCanvasById
@@ -1371,11 +1371,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 204686022}
-  - {fileID: 1107299369}
-  - {fileID: 2030579491}
   - {fileID: 199001289}
+  - {fileID: 2030579491}
   - {fileID: 419994282}
   - {fileID: 1711445139}
   - {fileID: 1225676729}
+  - {fileID: 1107299369}
+  - {fileID: 204686022}
   - {fileID: 1164010379}

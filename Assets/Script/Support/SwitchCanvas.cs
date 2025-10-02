@@ -5,6 +5,7 @@ public enum InGameCanvas
     GameCanvas,
     MenuCanvas,
     GameOverCanvas,
+    GachaCanvas
 }
 
 public class SwitchCanvas : MonoBehaviour
