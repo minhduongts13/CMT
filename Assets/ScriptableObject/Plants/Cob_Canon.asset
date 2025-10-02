@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 0
   _special: Must be planted on 2 side-by-side kernelpults.
   _mergeMaterial:
-  - Kernelpult
-  - Kernelpult
+  - {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}
+  - {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}

@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 885157935896730777}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.8289046, y: 0.86063886, z: 0.08519678}
+  m_LocalPosition: {x: -5.8289046, y: 0.86063886, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137,7 +137,7 @@ Transform:
   m_GameObject: {fileID: 1687348940248499503}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.24, y: 1.06, z: 0.08519678}
+  m_LocalPosition: {x: -3.24, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -230,8 +230,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3031198231036273752}
   - component: {fileID: 939239315798422598}
-  - component: {fileID: 3565160711611845872}
   - component: {fileID: 804381093057123438}
+  - component: {fileID: 1666785022868978153}
   m_Layer: 3
   m_Name: Zombie Object
   m_TagString: Zombie
@@ -248,7 +248,7 @@ Transform:
   m_GameObject: {fileID: 5169221996000517807}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.0981536, y: -1.3460591, z: -0.08519678}
+  m_LocalPosition: {x: -3.0981536, y: -1.3460591, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -297,9 +297,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2076969575
-  m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingLayerID: -85043345
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 3978161760061157939, guid: 926fa493f96afe545b42f0430a335a6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -311,39 +311,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3565160711611845872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5169221996000517807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a48e4300001de46be1886afc5b918c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentRow: -1
-  zombieCardSO: {fileID: 0}
-  moveSpeed: 0
-  isMoving: 1
-  health: 100
-  damage: 0
-  attackRange: 0
-  attackRate: 0
-  plantLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  isDead: 0
-  isAttacking: 0
-  states: []
-  stateCount: 0
-  damageAudio: {fileID: 0}
-  attackAudio: {fileID: 0}
-  deathAudio: {fileID: 0}
-  deathParticles: {fileID: 0}
-  attackEffect: {fileID: 0}
-  isDragging: 0
 --- !u!50 &804381093057123438
 Rigidbody2D:
   serializedVersion: 5
@@ -371,3 +338,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1666785022868978153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169221996000517807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9ecf86921d5a840b1cf1ee7a3ae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  damage: 0
+  moveSpeed: 0
+  attackRange: 0
+  attackRate: 0
+  currentRow: -1
+  isDead: 0
+  isDragging: 0
+  isAttacking: 0
+  isMoving: 1
+  isInitialized: 0
+  damageAudio: {fileID: 0}
+  deathAudio: {fileID: 0}
+  zombieCardSO: {fileID: 0}
+  canMove: 1
+  moveDirection: {x: -1, y: 0, z: 0}
+  debugMode: 1

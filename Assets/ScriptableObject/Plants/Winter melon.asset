@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 0
   _special: melons damage and freeze nearby enemies on impact.
   _mergeMaterial:
-  - Melonpult
-  - Ice-shroom
+  - {fileID: 6882229162315515279, guid: 4c959ec52cc0dda469f816b8cb0dd85f, type: 3}
+  - {fileID: -6559099025263312626, guid: 548f14d9b3f2a744cb8231bab18ea0c4, type: 3}

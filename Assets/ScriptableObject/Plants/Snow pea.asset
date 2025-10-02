@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 0
   _special: shows zombies
   _mergeMaterial:
-  - Ice-shroom
-  - Peashooter
+  - {fileID: -3070453432627086885, guid: 2fa579922096918429030a2627b523fc, type: 3}
+  - {fileID: -6559099025263312626, guid: 548f14d9b3f2a744cb8231bab18ea0c4, type: 3}

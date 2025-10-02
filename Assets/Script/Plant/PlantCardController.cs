@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-
     private Canvas canvas;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -12,8 +11,6 @@ public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDra
 
     [Header("Card Data")]
     public PlantCardScriptableObject myPlantCardSO;
-    [Header("Plant Prefab")]
-    // public GameObject plantPrefab;
 
     private GameObject draggingPlantInstance;
 
@@ -35,123 +32,287 @@ public class PlantCardController : MonoBehaviour, IPointerDownHandler, IBeginDra
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        // Cleanup previous instance nếu có
+        CleanupDraggingInstance();
+
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
 
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(eventData.position);
         worldPos.z = 0;
-        draggingPlantInstance = Instantiate(myPlantCardSO.plantPrefab, worldPos, Quaternion.identity);
 
-        Image iconImage = transform.Find("Plant Icon").GetComponent<Image>();
-        SpriteRenderer sr = draggingPlantInstance.GetComponent<SpriteRenderer>();
-        if (iconImage != null && sr != null)
+        // NULL CHECK cho myPlantCardSO
+        if (myPlantCardSO?.PlantPrefab == null)
         {
-            sr.sprite = iconImage.sprite;
+            Debug.LogError("[CARD] PlantPrefab is null!");
+            return;
+        }
 
-            // Chuẩn hóa kích thước cây
-            float targetHeight = 3.5f;
-            float spriteHeight = sr.sprite.bounds.size.y;
-            float scale = targetHeight / spriteHeight;
-            draggingPlantInstance.transform.localScale = new Vector3(scale, scale, 1);
-            PlantManager pm = draggingPlantInstance.GetComponent<PlantManager>();
-            pm.plantCardSO = myPlantCardSO;
-            pm.isDragging = true;
+        draggingPlantInstance = Instantiate(myPlantCardSO.PlantPrefab, worldPos, Quaternion.identity);
+
+        // NULL CHECK sau khi instantiate
+        if (draggingPlantInstance == null)
+        {
+            Debug.LogError("[CARD] Failed to instantiate plant!");
+            return;
+        }
+
+        SetupDraggingPlant();
+    }
+
+    private void SetupDraggingPlant()
+    {
+        if (draggingPlantInstance == null) return;
+
+        // Find Body sprite renderer để scale
+        Transform bodyTransform = draggingPlantInstance.transform.Find("Body");
+        if (bodyTransform != null)
+        {
+            SpriteRenderer sr = bodyTransform.GetComponent<SpriteRenderer>();
+            if (sr != null && sr.sprite != null)
+            {
+                // Chuẩn hóa kích thước cây
+                float targetHeight = 3.5f;
+                float spriteHeight = sr.sprite.bounds.size.y;
+                float scale = targetHeight / spriteHeight;
+                draggingPlantInstance.transform.localScale = new Vector3(scale, scale, 1);
+            }
+        }
+
+        // SETUP CHỈ PLANT COMPONENT
+        Plant plantComponent = draggingPlantInstance.GetComponent<Plant>();
+        if (plantComponent != null && myPlantCardSO != null)
+        {
+            plantComponent.SetPlantCardSO(myPlantCardSO);
+            plantComponent.SetDragging(true);
+            Debug.Log($"[CARD] Plant component setup with SO: {myPlantCardSO.name}");
+
+            // Validate bullet assignment
+            if (plantComponent.Bullet != null)
+            {
+                Debug.Log($"[CARD] Bullet assigned: {plantComponent.Bullet.name}");
+            }
+            else
+            {
+                Debug.LogWarning("[CARD] No bullet assigned to Plant component!");
+            }
+        }
+        else
+        {
+            Debug.LogError("[CARD] Plant component or myPlantCardSO is null!");
         }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (draggingPlantInstance != null)
+        if (draggingPlantInstance == null) return;
+
+        try
         {
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(eventData.position);
             worldPos.z = 0;
-            draggingPlantInstance.transform.position = worldPos;
+
+            if (draggingPlantInstance != null && draggingPlantInstance.transform != null)
+            {
+                draggingPlantInstance.transform.position = worldPos;
+            }
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"[CARD] Error during drag: {e.Message}");
+            CleanupDraggingInstance();
         }
     }
 
-    // Sửa hàm FindNearestSlot trong PlantCardController
     private SlotManagerCollider FindNearestSlot()
     {
+        if (draggingPlantInstance == null || draggingPlantInstance.transform == null)
+        {
+            Debug.LogWarning("[CARD] draggingPlantInstance is null in FindNearestSlot");
+            return null;
+        }
+
         SlotManagerCollider[] allSlots = FindObjectsByType<SlotManagerCollider>(FindObjectsSortMode.None);
         SlotManagerCollider nearestSlot = null;
         float nearestDistance = float.MaxValue;
-        float maxAllowedDistance = 20.0f; // Khoảng cách tối đa cho phép đặt
+        float maxAllowedDistance = 2.0f;
+
+        Vector3 plantPosition = draggingPlantInstance.transform.position;
 
         foreach (SlotManagerCollider slot in allSlots)
         {
-            // CHỈ tìm plant slots
+            if (slot == null || slot.transform == null) continue;
             if (slot.slotType != SlotType.PlantSlot) continue;
-
-            // Bỏ qua slot đã có object
             if (!slot.IsEmpty()) continue;
 
-            var dragPlantRect = draggingPlantInstance.GetComponent<RectTransform>();
-            var slotRect = slot.GetComponent<RectTransform>();
-            // float xDistance = dragPlantRect.position.x - slotRect.position.x;
-            // float yDistance = dragPlantRect.position.y - slotRect.position.y;
-            // Debug.Log($"X Distance to slot {slot.name}: {xDistance}, Y Distance: {yDistance}");
-            // Debug.Log($"Slot Width: {slotRect.rect.width}, Slot Height: {slotRect.rect.height}");
-            float distance = Vector2.Distance(dragPlantRect.position, slotRect.position);
+            float distance = Vector2.Distance(plantPosition, slot.transform.position);
 
-            // CHỈ xét các slot trong phạm vi cho phép
             if (distance <= maxAllowedDistance && distance < nearestDistance)
             {
                 nearestDistance = distance;
                 nearestSlot = slot;
             }
-            // if (Mathf.Abs(xDistance) <= slotRect.rect.width / 2 && Mathf.Abs(yDistance) <= slotRect.rect.height / 2)
-            // {
-            //     nearestSlot = slot;
-            //     return nearestSlot;
-            // }
-
         }
 
         return nearestSlot;
     }
 
-    // Sửa OnEndDrag để kiểm tra chặt chẽ hơn
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         rectTransform.anchoredPosition = originalPosition;
 
-        SlotManagerCollider nearestSlot = FindNearestSlot();
-
-        // CHỈ đặt nếu tìm được slot hợp lệ VÀ có thể đặt object
-        if (nearestSlot != null &&
-            nearestSlot.CanPlaceObject(draggingPlantInstance) &&
-            nearestSlot.IsEmpty())
+        if (draggingPlantInstance == null)
         {
-            // Kiểm tra khoảng cách một lần nữa để chắc chắn
-            float finalDistance = Vector2.Distance(draggingPlantInstance.transform.position, nearestSlot.transform.position);
-            if (finalDistance <= 20.0f) // Cùng giá trị maxAllowedDistance
-
-            {
-                if (nearestSlot.PlacePlant(draggingPlantInstance))
-                {
-                    SpriteRenderer sr = draggingPlantInstance.GetComponent<SpriteRenderer>();
-                    if (sr != null)
-                    {
-                        Color plantColor = sr.color;
-                        plantColor.a = 1f;
-                        sr.color = plantColor;
-                    }
-
-                    draggingPlantInstance.GetComponent<PlantManager>().isDragging = false;
-                    draggingPlantInstance = null;
-                    Debug.Log("Plant placed successfully!");
-                    return;
-                }
-            }
+            Debug.LogWarning("[CARD] draggingPlantInstance is null in OnEndDrag");
+            return;
         }
 
-        // Nếu KHÔNG thỏa mãn bất kỳ điều kiện nào → XÓA plant
+        try
+        {
+            SlotManagerCollider nearestSlot = FindNearestSlot();
+
+            if (nearestSlot != null &&
+                nearestSlot.CanPlaceObject(draggingPlantInstance) &&
+                nearestSlot.IsEmpty())
+            {
+                float finalDistance = Vector2.Distance(
+                    draggingPlantInstance.transform.position,
+                    nearestSlot.transform.position
+                );
+
+                if (finalDistance <= 2.0f)
+                {
+                    if (TryPlacePlant(nearestSlot))
+                    {
+                        Debug.Log("[CARD] Plant placed successfully!");
+                        return; // Success
+                    }
+                }
+            }
+
+            Debug.Log("[CARD] Cannot place plant - destroying instance");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"[CARD] Error in OnEndDrag: {e.Message}");
+        }
+
+        CleanupDraggingInstance();
+    }
+
+    private bool TryPlacePlant(SlotManagerCollider slot)
+    {
+        if (slot == null || draggingPlantInstance == null) return false;
+
+        if (slot.PlacePlant(draggingPlantInstance))
+        {
+            // Make plant visible
+            SpriteRenderer sr = draggingPlantInstance.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                Color plantColor = sr.color;
+                plantColor.a = 1f;
+                sr.color = plantColor;
+            }
+
+            // CHỈ SETUP PLANT COMPONENT
+            Plant plantComponent = draggingPlantInstance.GetComponent<Plant>();
+
+            if (plantComponent != null)
+            {
+                // ENSURE PlantCardSO is set
+                if (plantComponent.PlantCardSO == null && myPlantCardSO != null)
+                {
+                    Debug.Log("[CARD] Setting PlantCardSO before spawn");
+                    plantComponent.SetPlantCardSO(myPlantCardSO);
+                }
+
+                // SET ROW
+                plantComponent.SetPlantRow(slot.slotRow);
+                Debug.Log($"[CARD] Plant row set to: {slot.slotRow}");
+
+                // STOP DRAGGING
+                plantComponent.SetDragging(false);
+
+                // VALIDATION
+                Debug.Log($"[CARD] Plant validation:");
+                Debug.Log($"  - Health: {plantComponent.Health}");
+                Debug.Log($"  - Row: {plantComponent.CurrentRow}");
+                Debug.Log($"  - CanShoot: {plantComponent.CanShoot}");
+                Debug.Log($"  - Bullet: {plantComponent.Bullet?.name ?? "NULL"}");
+                Debug.Log($"  - AttackRange: {plantComponent.AttackRange}");
+                Debug.Log($"  - AttackRate: {plantComponent.AttackRate}");
+
+                if (plantComponent.Health <= 0)
+                {
+                    Debug.LogError("[CARD] Plant has 0 health!");
+                    return false;
+                }
+
+                if (plantComponent.Bullet == null)
+                {
+                    Debug.LogError("[CARD] Plant has no bullet! Cannot attack!");
+                }
+
+                // SPAWN PLANT - triggers OnPlantInitialized
+                plantComponent.Spawn();
+                Debug.Log("[CARD] Plant.Spawn() called - should trigger initialization");
+            }
+            else
+            {
+                Debug.LogError("[CARD] No Plant component found on dragging instance!");
+                return false;
+            }
+
+            // CLEAR REFERENCE
+            draggingPlantInstance = null;
+            return true;
+        }
+
+        Debug.LogError("[CARD] slot.PlacePlant() returned false!");
+        return false;
+    }
+
+    private void CleanupDraggingInstance()
+    {
         if (draggingPlantInstance != null)
         {
-            Debug.Log("Cannot place plant - destroying instance");
-            Destroy(draggingPlantInstance);
+            try
+            {
+                Debug.Log("[CARD] Cleaning up dragging instance");
+                Destroy(draggingPlantInstance);
+            }
+            catch (System.Exception e)
+            {
+                Debug.LogError($"[CARD] Error destroying dragging instance: {e.Message}");
+            }
+            finally
+            {
+                draggingPlantInstance = null;
+            }
+        }
+    }
+
+    // Safety cleanup
+    private void OnDestroy()
+    {
+        CleanupDraggingInstance();
+    }
+
+    private void OnDisable()
+    {
+        CleanupDraggingInstance();
+    }
+
+    // Debug validation
+    private void Update()
+    {
+        // Check nếu dragging instance bị destroy externally
+        if (draggingPlantInstance != null && draggingPlantInstance.Equals(null))
+        {
+            Debug.LogWarning("[CARD] Dragging instance was destroyed externally");
             draggingPlantInstance = null;
         }
     }

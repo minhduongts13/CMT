@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie_Cone_Degrades_0: -4312119422909704406
+      Zombie_Cone_Degrades_1: -7434460463209472574
+      Zombie_Cone_Degrades_2: 5469272888335068156
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

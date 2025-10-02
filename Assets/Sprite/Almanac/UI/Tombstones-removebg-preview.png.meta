@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 98e37abb2c8fc9e4883d9693fc85c5ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1187008105981054395
+    second: Tombstones-removebg-preview_0
+  - first:
+      213: -1892750323124754843
+    second: Tombstones-removebg-preview_1
+  - first:
+      213: 8999590864528827458
+    second: Tombstones-removebg-preview_2
+  - first:
+      213: -6487379140866275387
+    second: Tombstones-removebg-preview_3
+  - first:
+      213: 3734847056103381697
+    second: Tombstones-removebg-preview_4
+  - first:
+      213: 3086445412312094676
+    second: Tombstones-removebg-preview_5
+  - first:
+      213: 2118500009470445220
+    second: Tombstones-removebg-preview_6
+  - first:
+      213: -846377565550367966
+    second: Tombstones-removebg-preview_7
+  - first:
+      213: -8105590461754417125
+    second: Tombstones-removebg-preview_8
+  - first:
+      213: 3504489257490034637
+    second: Tombstones-removebg-preview_9
+  - first:
+      213: 1218637751256882426
+    second: Tombstones-removebg-preview_10
+  - first:
+      213: 5455846787180468674
+    second: Tombstones-removebg-preview_11
+  - first:
+      213: -6619856064703190099
+    second: Tombstones-removebg-preview_12
+  - first:
+      213: -52795192015777523
+    second: Tombstones-removebg-preview_13
+  - first:
+      213: 8890080203063013561
+    second: Tombstones-removebg-preview_14
+  - first:
+      213: -3457013660343172482
+    second: Tombstones-removebg-preview_15
+  - first:
+      213: -6909341439253577346
+    second: Tombstones-removebg-preview_16
+  - first:
+      213: 7498186931769099240
+    second: Tombstones-removebg-preview_17
+  - first:
+      213: -7923682781541057403
+    second: Tombstones-removebg-preview_18
+  - first:
+      213: -8224837385093363269
+    second: Tombstones-removebg-preview_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 281
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5427d79aa66e68fe0800000000000000
+      internalID: -1187008105981054395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 281
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566a4adfb999bb5e0800000000000000
+      internalID: -1892750323124754843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 282
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244671c9538f4ec70800000000000000
+      internalID: 8999590864528827458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 279
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c703610b0338f5a0800000000000000
+      internalID: -6487379140866275387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 275
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca94750c97d4d330800000000000000
+      internalID: 3734847056103381697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 193
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d71f73ffb145da20800000000000000
+      internalID: 3086445412312094676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 190
+        width: 77
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6c529c88c666d10800000000000000
+      internalID: 2118500009470445220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 196
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ba283a6101144f0800000000000000
+      internalID: -846377565550367966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 190
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1065589b68238f80800000000000000
+      internalID: -8105590461754417125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 190
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfaddf796272a030800000000000000
+      internalID: 3504489257490034637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 100
+        width: 72
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc1c81049879e010800000000000000
+      internalID: 1218637751256882426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 99
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c919d22fbf07bb40800000000000000
+      internalID: 5455846787180468674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 100
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daba62f8bfb8124a0800000000000000
+      internalID: -6619856064703190099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 97
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d011d067d0f644ff0800000000000000
+      internalID: -52795192015777523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 93
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0bd40d7d8ef5b70800000000000000
+      internalID: 8890080203063013561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72829754683600d0800000000000000
+      internalID: -3457013660343172482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 10
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71876971961d10a0800000000000000
+      internalID: -6909341439253577346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 10
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3c29f8949ee0860800000000000000
+      internalID: 7498186931769099240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 7
+        width: 67
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cbd5ddd7c690290800000000000000
+      internalID: -7923682781541057403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tombstones-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 5
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9482ea9f18bdd80800000000000000
+      internalID: -8224837385093363269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tombstones-removebg-preview_0: -1187008105981054395
+      Tombstones-removebg-preview_1: -1892750323124754843
+      Tombstones-removebg-preview_10: 1218637751256882426
+      Tombstones-removebg-preview_11: 5455846787180468674
+      Tombstones-removebg-preview_12: -6619856064703190099
+      Tombstones-removebg-preview_13: -52795192015777523
+      Tombstones-removebg-preview_14: 8890080203063013561
+      Tombstones-removebg-preview_15: -3457013660343172482
+      Tombstones-removebg-preview_16: -6909341439253577346
+      Tombstones-removebg-preview_17: 7498186931769099240
+      Tombstones-removebg-preview_18: -7923682781541057403
+      Tombstones-removebg-preview_19: -8224837385093363269
+      Tombstones-removebg-preview_2: 8999590864528827458
+      Tombstones-removebg-preview_3: -6487379140866275387
+      Tombstones-removebg-preview_4: 3734847056103381697
+      Tombstones-removebg-preview_5: 3086445412312094676
+      Tombstones-removebg-preview_6: 2118500009470445220
+      Tombstones-removebg-preview_7: -846377565550367966
+      Tombstones-removebg-preview_8: -8105590461754417125
+      Tombstones-removebg-preview_9: 3504489257490034637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

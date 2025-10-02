@@ -23,5 +23,5 @@ MonoBehaviour:
   _materialProduction: 2
   _special: 
   _mergeMaterial:
-  - Sunflower
-  - Sunflower
+  - {fileID: 7367808777163505026, guid: 957bcab97c780cc44885cf697ba4f879, type: 3}
+  - {fileID: 7367808777163505026, guid: 957bcab97c780cc44885cf697ba4f879, type: 3}

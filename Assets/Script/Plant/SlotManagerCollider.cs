@@ -21,12 +21,12 @@ public class SlotManagerCollider : MonoBehaviour
         // Kiểm tra object có phù hợp với slot type không
         if (slotType == SlotType.PlantSlot)
         {
-            return obj.GetComponent<PlantManager>() != null;
+            return obj.GetComponent<Plant>() != null;
         }
         else if (slotType == SlotType.ZombieSlot)
         {
             // Zombie slot LUÔN cho phép đặt (không check isEmpty)
-            return obj.GetComponent<ZombieController>() != null;
+            return obj.GetComponent<Zombie>() != null;
         }
 
         return false;
@@ -44,7 +44,7 @@ public class SlotManagerCollider : MonoBehaviour
         isEmpty = false;
 
         // SET ROW cho plant
-        PlantManager plantManager = plant.GetComponent<PlantManager>();
+        Plant plantManager = plant.GetComponent<Plant>();
         if (plantManager != null)
         {
             plantManager.SetPlantRow(slotRow);
@@ -62,7 +62,7 @@ public class SlotManagerCollider : MonoBehaviour
         zombie.transform.SetParent(transform);
 
         // SET ROW cho zombie
-        ZombieController zombieController = zombie.GetComponent<ZombieController>();
+        Zombie zombieController = zombie.GetComponent<Zombie>();
         if (zombieController != null)
         {
             zombieController.SetZombieRow(slotRow);

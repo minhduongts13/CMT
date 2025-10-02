@@ -1,34 +1,45 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Almanac_Object", menuName = "Scriptable Objects/Almanac_Object")]
+// [CreateAssetMenu(fileName = "Almanac_Object", menuName = "Scriptable Objects/Almanac_Object")]
 public class Almanac_Object : ScriptableObject
 {
-    [Header("Deck")]
-    [SerializeField] private float _cost;
-    [SerializeField] private Sprite _almanacImage;
-    [Header("Card")]
+    [Header("Basic Info")]
     [SerializeField] private string _name;
-    [SerializeField] private Sprite _ingameImage;
-    [SerializeField] private float _recharge;
-    [Header("Description")]
-    [SerializeField] private string _description;
+    [SerializeField] private Sprite _cardIcon;
+    [SerializeField] private float _cost;
+
+    [Header("Combat Stats")]
     [SerializeField] private float _damage;
     [SerializeField] private float _toughness;
+    [SerializeField] private float _recharge;
+    [SerializeField] private float _range;        // Plant: shoot range, Zombie: attack range
+    [SerializeField] private float _actionRate;   // Plant: fire rate, Zombie: attack rate  
+    [SerializeField] private float _speed;        // Plant: bullet speed, Zombie: move speed
+
+    [Header("Almanac Specific")]
+    [SerializeField] private Sprite _almanacImage;
+    [SerializeField] private Sprite _ingameImage;
+    [SerializeField] private string _description;
     [SerializeField] private float _materialProduction;
     [SerializeField] private string _special;
-    [Header("Merge")]
-    [SerializeField] List<string> _mergeMaterial;
+    [SerializeField] private List<Sprite> _mergeMaterial;
 
-    public float Cost => _cost;
-    public Sprite AlmanacImage => _almanacImage;
+
+    // Properties
     public string Name => _name;
-    public Sprite InGameImage => _ingameImage;
-    public string Description => _description;
-    public float Recharge => _recharge;
+    public Sprite CardIcon => _cardIcon;
+    public float Cost => _cost;
     public float Damage => _damage;
     public float ToughNess => _toughness;
+    public float Recharge => _recharge;
+    public float Range => _range;
+    public float ActionRate => _actionRate;
+    public float Speed => _speed;
+    public Sprite AlmanacImage => _almanacImage;
+    public Sprite InGameImage => _ingameImage;
+    public string Description => _description;
     public float MaterialProduction => _materialProduction;
     public string Special => _special;
-    public List<string> MergeMaterial => _mergeMaterial;
+    public List<Sprite> MergeMaterial => _mergeMaterial;
 }

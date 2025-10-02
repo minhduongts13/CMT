@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +9,7 @@ public class CardRender : MonoBehaviour
     [SerializeField] private Image _image;
     [SerializeField] private TMP_Text _description;
     [SerializeField] private TMP_Text _recharge;
+    [SerializeField] private List<Image> _materials;
 
     private string DamageText(float dame)
     {
@@ -51,16 +53,28 @@ public class CardRender : MonoBehaviour
         _image.sprite = almanacObject.InGameImage;
         _description.text = HandleDescripttion(almanacObject) + Colored(almanacObject.Description, "6B4400");
         _recharge.text = Colored(RechargeText(almanacObject.Recharge), "FF4444");
+        if (almanacObject.MergeMaterial.Count > 0)
+        {
+            for (int i = 0; i < almanacObject.MergeMaterial.Count; i++)
+            {
+                SetAlpha(_materials[i], 1f);
+                _materials[i].sprite = almanacObject.MergeMaterial[i];
+            }
+        }
+        else
+        {
+            for (int i = 0; i < _materials.Count; i++)
+            {
+                SetAlpha(_materials[i], 0f);
+            }
+        }
     }
 
-    public string RenderFormula(Almanac_Object almanac_Object)
+    private void SetAlpha(Image img, float alpha)
     {
-        string formula = "Formula: " + almanac_Object.MergeMaterial[0];
-        for (int i = 1; i < almanac_Object.MergeMaterial.Count; i++)
-        {
-            formula += ", " + almanac_Object.MergeMaterial[i];
-        }
-        return formula + ".";
+        var c = img.color;
+        c.a = alpha;      
+        img.color = c; 
     }
 
     private string HandleDescripttion(Almanac_Object plant)
@@ -86,10 +100,6 @@ public class CardRender : MonoBehaviour
         if (!string.IsNullOrEmpty(plant.Special))
         {
             result += $"{Colored("Special:", "6B4400")} {Colored(plant.Special, "FF4444")}\n";
-        }
-        if (plant.MergeMaterial.Count > 0)
-        {
-            result += $"{Colored(RenderFormula(plant), "47A0F2")} \n";
         }
         return result;
     }
