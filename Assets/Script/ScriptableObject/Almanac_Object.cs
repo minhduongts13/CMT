@@ -19,16 +19,15 @@ public class Almanac_Object : ScriptableObject
 
     [Header("Almanac Specific")]
     [SerializeField] private Sprite _almanacImage;
+    [Header("Card")]
     [SerializeField] private Sprite _ingameImage;
     [SerializeField] private string _description;
     [SerializeField] private float _materialProduction;
     [SerializeField] private string _special;
     [SerializeField] private List<Sprite> _mergeMaterial;
 
-
-    // Properties
-    public string Name => _name;
     public Sprite CardIcon => _cardIcon;
+    public string Name => _name;
     public float Cost => _cost;
     public float Damage => _damage;
     public float ToughNess => _toughness;

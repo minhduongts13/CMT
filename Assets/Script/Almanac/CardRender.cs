@@ -14,18 +14,21 @@ public class CardRender : MonoBehaviour
     private string DamageText(float dame)
     {
         if (dame == 0f) return "";
-        if (dame >= 1000f) return "massive";
-        if (dame >= 500f) return "heavy";
-        if (dame >= 100f) return "normal";
+        if (dame >= 2000f) return "massive";
+        if (dame >= 1000f) return "heavy";
+        if (dame >= 50f) return "normal";
         return "weak";
     }
 
     private string MaterialProductionText(float materialProduction)
     {
         if (materialProduction == 0f) return "";
-        if (materialProduction < 1f) return "low";
-        if (materialProduction < 2f) return "normal";
-        if (materialProduction == 2f) return "double";
+        if (materialProduction < 25f) return "low";
+        if (materialProduction < 50f) return "normal";
+        if (materialProduction == 50f) return "double";
+        if (materialProduction < 100f) return "high";
+        if (materialProduction == 100f) return "very high";
+        if (materialProduction == 200f) return "extremely high";
         return "bug";
     }
 
@@ -33,17 +36,17 @@ public class CardRender : MonoBehaviour
     {
         if (toughness == 0f) return "";
         if (toughness >= 3000f) return "extremely high";
-        if (toughness >= 1000f) return "very high";
-        if (toughness >= 100f) return "high";
-        if (toughness >= 50f) return "medium";
-        return "normal";
+        if (toughness >= 1500f) return "very high";
+        if (toughness >= 1000f) return "high";
+        if (toughness >= 500f) return "medium";
+        return "low";
     }
 
     private string RechargeText(float recharge)
     {
         if (recharge == 0f) return "none";
-        if (recharge < 1f) return "fast";
-        if (recharge < 2f) return "slow";
+        if (recharge < 10f) return "fast";
+        if (recharge < 50f) return "slow";
         return "very slow";
     }
 

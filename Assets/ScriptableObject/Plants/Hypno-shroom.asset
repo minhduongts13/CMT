@@ -9,17 +9,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Hypno-shroom
   m_EditorClassIdentifier: 
-  _cost: 75
-  _almanacImage: {fileID: -8840312540620504914, guid: c8fa8419b7bd5254499358888a2ce11a, type: 3}
   _name: Hypno-shroom
+  _cardIcon: {fileID: -8840312540620504914, guid: c8fa8419b7bd5254499358888a2ce11a, type: 3}
+  _cost: 75
+  _damage: 0
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 0
+  _almanacImage: {fileID: -8840312540620504914, guid: c8fa8419b7bd5254499358888a2ce11a, type: 3}
   _ingameImage: {fileID: -8840312540620504914, guid: d21b0078ec3678144aa4dbcd37ad8e47, type: 3}
-  _recharge: 1
   _description: When eaten, hypno-shrooms will make a zombie turn around and mind
     control.
-  _damage: 0
-  _toughness: 0
   _materialProduction: 0
   _special: makes a zombie fight for you
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

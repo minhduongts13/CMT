@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Spikeweed
   m_EditorClassIdentifier: 
-  _cost: 100
-  _almanacImage: {fileID: 152793285976697409, guid: ccb1ac28b785da5468d39b8c8cbb99b1, type: 3}
   _name: Spikeweed
+  _cardIcon: {fileID: 152793285976697409, guid: ccb1ac28b785da5468d39b8c8cbb99b1, type: 3}
+  _cost: 100
+  _damage: 10
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 0.5
+  _almanacImage: {fileID: 152793285976697409, guid: ccb1ac28b785da5468d39b8c8cbb99b1, type: 3}
   _ingameImage: {fileID: 152793285976697409, guid: ea2cdd0f53f1d404d99379aa3d5d23f5, type: 3}
-  _recharge: 0.5
   _description: Spikeweeds pop tires and hurt any zombies that step on them.
-  _damage: 150
-  _toughness: 0
   _materialProduction: 0
   _special: can't be eaten by zombies
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

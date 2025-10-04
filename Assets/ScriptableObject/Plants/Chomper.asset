@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Chomper
   m_EditorClassIdentifier: 
-  _cost: 150
-  _almanacImage: {fileID: 815495372769449193, guid: 2ae5d6b65e70271428d67a8d5abd0cb1, type: 3}
   _name: Chomper
+  _cardIcon: {fileID: 815495372769449193, guid: 2ae5d6b65e70271428d67a8d5abd0cb1, type: 3}
+  _cost: 150
+  _damage: 1800
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 1.5
+  _almanacImage: {fileID: 815495372769449193, guid: 2ae5d6b65e70271428d67a8d5abd0cb1, type: 3}
   _ingameImage: {fileID: 815495372769449193, guid: 5d9d37eb6d2a2904b8d4b6113d22c688, type: 3}
-  _recharge: 0.8
   _description: Chompers can devour a zombie whole in a very short range.
-  _damage: 1000
-  _toughness: 0
-  _sunProduction: 0
+  _materialProduction: 0
   _special: long delay between chomps.
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
+  m_Name: Cob Canon
+  m_EditorClassIdentifier: 
+  _name: Cob Canon
+  _cardIcon: {fileID: -8607516716394669130, guid: c903df0be6535344c8111d3592feb7d2, type: 3}
+  _cost: 0
+  _damage: 1800
+  _toughness: 300
+  _recharge: 0
+  _range: 0
+  _actionRate: 0
+  _speed: 20
+  _almanacImage: {fileID: -8607516716394669130, guid: c903df0be6535344c8111d3592feb7d2, type: 3}
+  _ingameImage: {fileID: 3361274587594574987, guid: 6bed47341a117e9489f79b585e1cf7bc, type: 3}
+  _description: Click on the Cob Canon to launch deadly cobs of corn.
+  _materialProduction: 0
+  _special: Must be planted on 2 side-by-side kernelpults.
+  _mergeMaterial:
+  - {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}
+  - {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

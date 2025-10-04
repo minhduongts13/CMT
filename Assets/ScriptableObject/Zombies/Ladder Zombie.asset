@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37b6115796c33e4ab3d9d1629d2bbc9, type: 3}
+  m_Name: Ladder Zombie
+  m_EditorClassIdentifier: 
+  _name: Ladder Zombie
+  _cardIcon: {fileID: -8720795828669545965, guid: 1034c63b66179b3459fbbaf8d9a4b754, type: 3}
+  _cost: 125
+  _damage: 50
+  _toughness: 840
+  _recharge: 0
+  _range: 0
+  _actionRate: 0.5
+  _speed: 0
+  _almanacImage: {fileID: -8720795828669545965, guid: 1034c63b66179b3459fbbaf8d9a4b754, type: 3}
+  _ingameImage: {fileID: 1359025448699802408, guid: 23ede379ee99ab1488813afdc32b7801, type: 3}
+  _description: Ladder Zombie climbs over obstacles.
+  _materialProduction: 0
+  _special: weakness is magnet-shroom.
+  _mergeMaterial: []
+  _zombiePrefab: {fileID: 0}
+  _state:
+  - 125
+  - 250
+  - 500
+  - 670

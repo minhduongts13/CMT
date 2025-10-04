@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Cabbagepult
   m_EditorClassIdentifier: 
-  _cost: 100
-  _almanacImage: {fileID: 2899649748439664084, guid: 79ff0f9588817ef42902a7eba4e4fc63, type: 3}
   _name: Cabbagepult
+  _cardIcon: {fileID: 2899649748439664084, guid: 79ff0f9588817ef42902a7eba4e4fc63, type: 3}
+  _cost: 100
+  _damage: 40
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 3
+  _almanacImage: {fileID: 2899649748439664084, guid: 79ff0f9588817ef42902a7eba4e4fc63, type: 3}
   _ingameImage: {fileID: -8075786371380111481, guid: b04956dd02464c84a8014790ac8870d8, type: 3}
-  _recharge: 0.5
   _description: Cabbage-pults hurt Cabbages at the enemy.
-  _damage: 100
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

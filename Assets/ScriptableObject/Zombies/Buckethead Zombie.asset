@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37b6115796c33e4ab3d9d1629d2bbc9, type: 3}
+  m_Name: Buckethead Zombie
+  m_EditorClassIdentifier: 
+  _name: Buckethead Zombie
+  _cardIcon: {fileID: 3160745465724269921, guid: ecd3688b12b503a4a9eb85ad2430b159, type: 3}
+  _cost: 125
+  _damage: 50
+  _toughness: 1370
+  _recharge: 0
+  _range: 0
+  _actionRate: 0.5
+  _speed: 0
+  _almanacImage: {fileID: 3160745465724269921, guid: ecd3688b12b503a4a9eb85ad2430b159, type: 3}
+  _ingameImage: {fileID: 3160745465724269921, guid: 6e5f0bd7ee94d8447b346aca492ad38e, type: 3}
+  _description: Bucket hat makes him extremely resistant to damage.
+  _materialProduction: 0
+  _special: weakness is magnet-shroom.
+  _mergeMaterial: []
+  _zombiePrefab: {fileID: 0}
+  _state:
+  - 350
+  - 700
+  - 1100

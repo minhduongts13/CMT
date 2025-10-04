@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
+  m_Name: Grave Buster
+  m_EditorClassIdentifier: 
+  _name: Grave Buster
+  _cardIcon: {fileID: -5694457115091303683, guid: 1b8e745ad37b989488b8eda3690631cd, type: 3}
+  _cost: 75
+  _damage: 0
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 3.5
+  _almanacImage: {fileID: -5694457115091303683, guid: 1b8e745ad37b989488b8eda3690631cd, type: 3}
+  _ingameImage: {fileID: -1499234140192615307, guid: c9d83bdea7bb73c4b84866ecefabb2e3, type: 3}
+  _description: Plant Grave Busters must be planted on graves to remove them.
+  _materialProduction: 0
+  _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Sea-shroom
   m_EditorClassIdentifier: 
-  _cost: 0
-  _almanacImage: {fileID: -32026852286559615, guid: 46c73584da5112a4d874e1db9e2fcb48, type: 3}
   _name: Sea-shroom
+  _cardIcon: {fileID: -32026852286559615, guid: 46c73584da5112a4d874e1db9e2fcb48, type: 3}
+  _cost: 0
+  _damage: 20
+  _toughness: 300
+  _recharge: 30
+  _range: 0
+  _actionRate: 0
+  _speed: 1.5
+  _almanacImage: {fileID: -32026852286559615, guid: 46c73584da5112a4d874e1db9e2fcb48, type: 3}
   _ingameImage: {fileID: -32026852286559615, guid: 3e105a39b831524449b58b91a92ac177, type: 3}
-  _recharge: 1.6
   _description: Sea-shrooms are aquatic plants that shoot short ranged spores.
-  _damage: 100
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

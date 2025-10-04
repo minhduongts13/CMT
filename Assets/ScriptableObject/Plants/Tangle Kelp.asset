@@ -9,17 +9,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Tangle Kelp
   m_EditorClassIdentifier: 
-  _cost: 25
-  _almanacImage: {fileID: -1546169610825517129, guid: d31a6c9526241274bae14095f22223ff, type: 3}
   _name: Tangle Kelp
+  _cardIcon: {fileID: -1546169610825517129, guid: d31a6c9526241274bae14095f22223ff, type: 3}
+  _cost: 25
+  _damage: 1800
+  _toughness: -1
+  _recharge: 30
+  _range: 0
+  _actionRate: 0
+  _speed: 0
+  _almanacImage: {fileID: -1546169610825517129, guid: d31a6c9526241274bae14095f22223ff, type: 3}
   _ingameImage: {fileID: -1546169610825517129, guid: 15509d9f0dce2b2479613426c88095c7, type: 3}
-  _recharge: 1.8
   _description: Tangle Kelp are aquatic plants that pull the first zombie that nears
     them underwater.
-  _damage: 1000
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

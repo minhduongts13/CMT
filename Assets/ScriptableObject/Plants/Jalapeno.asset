@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Jalapeno
   m_EditorClassIdentifier: 
-  _cost: 125
-  _almanacImage: {fileID: 1765607413124887585, guid: 3285ae66852eab2439f0f50d19fe8a43, type: 3}
   _name: Jalapeno
+  _cardIcon: {fileID: 1765607413124887585, guid: 3285ae66852eab2439f0f50d19fe8a43, type: 3}
+  _cost: 125
+  _damage: 1800
+  _toughness: -1
+  _recharge: 50
+  _range: 0
+  _actionRate: 0
+  _speed: 0
+  _almanacImage: {fileID: 1765607413124887585, guid: 3285ae66852eab2439f0f50d19fe8a43, type: 3}
   _ingameImage: {fileID: 1765607413124887585, guid: 7a19d836026cef940ac3151633844013, type: 3}
-  _recharge: 2
   _description: Jalapenos destroy an entire lane of zombies
-  _damage: 1000
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

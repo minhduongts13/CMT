@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Sunflower
   m_EditorClassIdentifier: 
-  _cost: 50
-  _almanacImage: {fileID: 7367808777163505026, guid: 957bcab97c780cc44885cf697ba4f879, type: 3}
   _name: Sunflower
-  _ingameImage: {fileID: -5797045900997954930, guid: da35a4bf0378dd54aa0b652fdf73c040, type: 3}
-  _recharge: 0.1
-  _description: Sunflowers are essential for you to produce extra sun.
+  _cardIcon: {fileID: 7367808777163505026, guid: 957bcab97c780cc44885cf697ba4f879, type: 3}
+  _cost: 50
   _damage: 0
-  _toughness: 0
-  _materialProduction: 1
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 24.25
+  _almanacImage: {fileID: 7367808777163505026, guid: 957bcab97c780cc44885cf697ba4f879, type: 3}
+  _ingameImage: {fileID: -5797045900997954930, guid: da35a4bf0378dd54aa0b652fdf73c040, type: 3}
+  _description: Sunflowers are essential for you to produce extra sun.
+  _materialProduction: 25
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

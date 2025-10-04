@@ -9,19 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Winter melon
   m_EditorClassIdentifier: 
-  _cost: 0
-  _almanacImage: {fileID: -4097714301449372428, guid: f9db27749ec7afa4987134a8408c9925, type: 3}
   _name: Winter Melon
-  _ingameImage: {fileID: -4097714301449372428, guid: 86da8bf8e60ee9d4ea985a93877b8923, type: 3}
+  _cardIcon: {fileID: -4097714301449372428, guid: f9db27749ec7afa4987134a8408c9925, type: 3}
+  _cost: 0
+  _damage: 80
+  _toughness: 300
   _recharge: 0
+  _range: 0
+  _actionRate: 0
+  _speed: 3
+  _almanacImage: {fileID: -4097714301449372428, guid: f9db27749ec7afa4987134a8408c9925, type: 3}
+  _ingameImage: {fileID: -4097714301449372428, guid: 86da8bf8e60ee9d4ea985a93877b8923, type: 3}
   _description: Winter Melons do heavy damage and slow groups of zombies.
-  _damage: 500
-  _toughness: 0
   _materialProduction: 0
   _special: melons damage and freeze nearby enemies on impact.
   _mergeMaterial:
   - {fileID: 6882229162315515279, guid: 4c959ec52cc0dda469f816b8cb0dd85f, type: 3}
   - {fileID: -6559099025263312626, guid: 548f14d9b3f2a744cb8231bab18ea0c4, type: 3}
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

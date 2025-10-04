@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Threepeater
   m_EditorClassIdentifier: 
-  _cost: 325
-  _almanacImage: {fileID: -1365271619121262400, guid: 133d017776729974daf22e7cf105e60e, type: 3}
   _name: Threepeater
+  _cardIcon: {fileID: -1365271619121262400, guid: 133d017776729974daf22e7cf105e60e, type: 3}
+  _cost: 325
+  _damage: 20
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 1.5
+  _almanacImage: {fileID: -1365271619121262400, guid: 133d017776729974daf22e7cf105e60e, type: 3}
   _ingameImage: {fileID: -1365271619121262400, guid: 91d487ea9b5757f479d3495d305b48a5, type: 3}
-  _recharge: 0.75
   _description: Threepeater shoot peas in three lanes,
-  _damage: 300
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

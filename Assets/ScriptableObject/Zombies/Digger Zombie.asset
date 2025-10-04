@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37b6115796c33e4ab3d9d1629d2bbc9, type: 3}
+  m_Name: Digger Zombie
+  m_EditorClassIdentifier: 
+  _name: Digger Zombie
+  _cardIcon: {fileID: -3741043503714685463, guid: de4f508438840df4ca8f26a7e8fb6988, type: 3}
+  _cost: 125
+  _damage: 50
+  _toughness: 300
+  _recharge: 0
+  _range: 0
+  _actionRate: 0.5
+  _speed: 0
+  _almanacImage: {fileID: -3741043503714685463, guid: de4f508438840df4ca8f26a7e8fb6988, type: 3}
+  _ingameImage: {fileID: 560406578659464983, guid: 248a042b1011bd44b8bd673ba6fb7bad, type: 3}
+  _description: This zombie digs to bypass your defenses.
+  _materialProduction: 0
+  _special: tunnels underground and appears on the left side of the lawn
+  _mergeMaterial: []
+  _zombiePrefab: {fileID: 0}
+  _state:
+  - 40
+  - 80
+  - 100
+  - 200

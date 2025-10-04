@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
+  m_Name: Lyli Pad
+  m_EditorClassIdentifier: 
+  _name: Lyli Pad
+  _cardIcon: {fileID: -6636963309793451902, guid: a0dfecbee15298d47aeb83dcf034ec3b, type: 3}
+  _cost: 25
+  _damage: 0
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 0
+  _almanacImage: {fileID: -6636963309793451902, guid: a0dfecbee15298d47aeb83dcf034ec3b, type: 3}
+  _ingameImage: {fileID: 4927359690165093166, guid: 78b804c3d9836c14a85ff82305d39954, type: 3}
+  _description: Lyli Pads let you plant non-aquatic plants on top of them.
+  _materialProduction: 0
+  _special: must be planted in water.
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

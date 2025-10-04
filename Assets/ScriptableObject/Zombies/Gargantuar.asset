@@ -9,16 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: d37b6115796c33e4ab3d9d1629d2bbc9, type: 3}
   m_Name: Gargantuar
   m_EditorClassIdentifier: 
-  _cost: 500
-  _almanacImage: {fileID: 4101259646533633807, guid: 894e25095a7657943b0ad24fa6b6d0c3, type: 3}
   _name: Gargantuar
-  _ingameImage: {fileID: 4101259646533633807, guid: 344f3e402f047924eb3ff6de9cb6125b, type: 3}
-  _recharge: 3
-  _description: Gargantuar is a gigantic zombie.
-  _damage: 0
+  _cardIcon: {fileID: 4101259646533633807, guid: 894e25095a7657943b0ad24fa6b6d0c3, type: 3}
+  _cost: 300
+  _damage: 10000
   _toughness: 3000
+  _recharge: 0
+  _range: 0
+  _actionRate: 5
+  _speed: 0
+  _almanacImage: {fileID: 4101259646533633807, guid: 894e25095a7657943b0ad24fa6b6d0c3, type: 3}
+  _ingameImage: {fileID: 4101259646533633807, guid: 344f3e402f047924eb3ff6de9cb6125b, type: 3}
+  _description: Gargantuar is a gigantic zombie.
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _zombiePrefab: {fileID: 0}
+  _state:
+  - 1500
