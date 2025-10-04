@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Starfruit
   m_EditorClassIdentifier: 
-  _cost: 125
-  _almanacImage: {fileID: -5195278561642766639, guid: b6cb21db293e9b34896eb6cc51ed1680, type: 3}
   _name: Starfruit
+  _cardIcon: {fileID: -5195278561642766639, guid: b6cb21db293e9b34896eb6cc51ed1680, type: 3}
+  _cost: 125
+  _damage: 20
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 1.5
+  _almanacImage: {fileID: -5195278561642766639, guid: b6cb21db293e9b34896eb6cc51ed1680, type: 3}
   _ingameImage: {fileID: -5195278561642766639, guid: 055b05b69168256409991e1d459ccd24, type: 3}
-  _recharge: 0.85
   _description: Starfruits shoot stars in 5 directions.
-  _damage: 120
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

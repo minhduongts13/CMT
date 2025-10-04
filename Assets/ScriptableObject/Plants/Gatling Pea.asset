@@ -9,19 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Gatling Pea
   m_EditorClassIdentifier: 
-  _cost: 0
-  _almanacImage: {fileID: -1151551255647047588, guid: d069b729fd343ec458eb95ade707955f, type: 3}
   _name: Gatling Pea
-  _ingameImage: {fileID: 7068033944421258557, guid: 6d6986606b3a9d941bc7fc28be5c0a13, type: 3}
+  _cardIcon: {fileID: -1151551255647047588, guid: d069b729fd343ec458eb95ade707955f, type: 3}
+  _cost: 0
+  _damage: 80
+  _toughness: 300
   _recharge: 0
+  _range: 0
+  _actionRate: 0
+  _speed: 1.5
+  _almanacImage: {fileID: -1151551255647047588, guid: d069b729fd343ec458eb95ade707955f, type: 3}
+  _ingameImage: {fileID: 7068033944421258557, guid: 6d6986606b3a9d941bc7fc28be5c0a13, type: 3}
   _description: Repeaters fire four peas at a time.
-  _damage: 400
-  _toughness: 0
   _materialProduction: 0
   _special: 
   _mergeMaterial:
   - {fileID: -1731964075387253349, guid: c4c3d28fb528cb44e8b3b5be0627beae, type: 3}
   - {fileID: -1731964075387253349, guid: c4c3d28fb528cb44e8b3b5be0627beae, type: 3}
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

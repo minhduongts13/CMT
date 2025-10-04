@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
+  m_Name: Melon-pult
+  m_EditorClassIdentifier: 
+  _name: Melon-pult
+  _cardIcon: {fileID: 6882229162315515279, guid: 4c959ec52cc0dda469f816b8cb0dd85f, type: 3}
+  _cost: 300
+  _damage: 80
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 3
+  _almanacImage: {fileID: 6882229162315515279, guid: 4c959ec52cc0dda469f816b8cb0dd85f, type: 3}
+  _ingameImage: {fileID: -8741824698267880440, guid: f14ddc92f2a3aaa4c838e63863238c2c, type: 3}
+  _description: Melon-pults do heavy damage to groups of zombies.
+  _materialProduction: 0
+  _special: melons damage nearby enemies on impact.
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

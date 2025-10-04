@@ -495,7 +495,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c63aa0e7c820af8408e3dd60f4dd8ad7, type: 2}
+      objectReference: {fileID: 11400000, guid: 1e94deae552cffe4b993104cf7a1d9b5, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -604,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 0a07a0a8e382fb24d93dd96d776bb641, type: 2}
+      objectReference: {fileID: 11400000, guid: 5a4e7f5222e8f0f44b94befec5c99af7, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -713,7 +713,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: b7989b8a1b274d942a7dd17fb2b64dbc, type: 2}
+      objectReference: {fileID: 11400000, guid: 73caed789a796ce4bbbeae82404ccf4a, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -822,7 +822,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: e1ce6b93d5c9ea649a9bcee4a98e045f, type: 2}
+      objectReference: {fileID: 11400000, guid: c42fee98f2280524cbb091ed7c9e90e1, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -870,7 +870,7 @@ RectTransform:
   m_Father: {fileID: 417925452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02, y: 0}
-  m_AnchorMax: {x: 0.32, y: 0.2}
+  m_AnchorMax: {x: 0.27, y: 0.12}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -921,8 +921,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1077,7 +1077,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: bee5edd463a1ffe4da58adeeb2d7774a, type: 2}
+      objectReference: {fileID: 11400000, guid: ff9980b318e8d634a8e0bb47c2c9a9d1, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -1355,7 +1355,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: cf682999b9edda242a054328246ab56b, type: 2}
+      objectReference: {fileID: 11400000, guid: 1c75d9c6efa7fae40845638780104efe, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -1464,7 +1464,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 58204fea83b7f9b4cb01468baaaa5985, type: 2}
+      objectReference: {fileID: 11400000, guid: c43c70dacc492684ea12acdbde0341b1, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -1811,7 +1811,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: fcd2e94b8f529d84eaa547b93bdae44a, type: 2}
+      objectReference: {fileID: 11400000, guid: 961c03cc1428c3046bc7951be685f096, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1916,7 +1916,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: ef262dd4bb272e64aa206802fa9e5de9, type: 2}
+      objectReference: {fileID: 11400000, guid: 05c4a88bd91081e42ba43b97b65a43a6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2025,7 +2025,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 25560649d9c95284a842eecd2025e5b0, type: 2}
+      objectReference: {fileID: 11400000, guid: f9d839a612033164b98228685587957e, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -2144,7 +2144,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 07ae18028418bc4488816b4c57f2349b, type: 2}
+      objectReference: {fileID: 11400000, guid: 95735b7ddf683d649beaa14112109667, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -2396,7 +2396,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 2ef79b54fe7d9e249b75649b806823d9, type: 2}
+      objectReference: {fileID: 11400000, guid: 867f62a1d2f56644dac6ff7e6a6cc40e, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -2572,7 +2572,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 71d774014deee9941a6568f5cd9e9d3a, type: 2}
+      objectReference: {fileID: 11400000, guid: 72fdd269547691e45bdcb0b2f781e089, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -2724,7 +2724,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c98e9f68ccf22b445bc8febda59b58c8, type: 2}
+      objectReference: {fileID: 11400000, guid: c89180e707d55614a9fa0ec117c29bb4, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -2833,7 +2833,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 4a78eafcc77c7be4e9e69d4a8afba421, type: 2}
+      objectReference: {fileID: 11400000, guid: 06d6e3b09fcc96e49a926e35502b3be6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2938,7 +2938,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 6e5279615bb643446a33a62f830ad6a7, type: 2}
+      objectReference: {fileID: 11400000, guid: 7ec1b1f6230a59f4bbbce92363c27dc9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3410,7 +3410,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 62a4220254665da499a5f7c3a7c08479, type: 2}
+      objectReference: {fileID: 11400000, guid: f83cba3a03735d340bb708510e74beb7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3534,7 +3534,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 38fe1eca8bfdf1144b6b765407ff8b68, type: 2}
+      objectReference: {fileID: 11400000, guid: dcfce6862ab036840b1dc8389b1fc31a, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -3643,7 +3643,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 50ae0818e8cd57847aa0455b30d9d5e9, type: 2}
+      objectReference: {fileID: 11400000, guid: 5cf7c215a9a05d64b8bc1ecf453a11e7, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -3811,7 +3811,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1713674083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.02, y: 0.2}
+  m_AnchorMin: {x: 0.02, y: 0.12}
   m_AnchorMax: {x: 0.98, y: 0.98}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -3871,8 +3871,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4094,7 +4094,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: dca93c95f2a40e949af9cbac60155e3a, type: 2}
+      objectReference: {fileID: 11400000, guid: a81cc60e147ac2b44b44afaa208f2ebd, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -4520,7 +4520,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: b69993ac70502c347aef7e445ff80622, type: 2}
+      objectReference: {fileID: 11400000, guid: b2514fb6d32d7c84993901d1dbda6676, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -4634,7 +4634,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 4f7475bba01fc144caaff124e944de37, type: 2}
+      objectReference: {fileID: 11400000, guid: 23475d86ce9ca1c41af998434d03c9b8, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -4748,7 +4748,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 80588c319da6ce946881647f3c0d3dd3, type: 2}
+      objectReference: {fileID: 11400000, guid: f1cef35281208a54595e45ead8824836, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -4922,7 +4922,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: a59821da20989a846926d2f2a75f3957, type: 2}
+      objectReference: {fileID: 11400000, guid: cd98aac4b364f8a44ba7cf8d116901ae, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -5060,7 +5060,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: d3b749267d3c4ac47a5f3a8f846f2e64, type: 2}
+      objectReference: {fileID: 11400000, guid: 87220dd965aef654a9032975dc10cda3, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -5190,7 +5190,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 50e96ec53e5f3eb4d9eb52ae5d9e3a62, type: 2}
+      objectReference: {fileID: 11400000, guid: 7671f9b8d33b6964a96213e27b44df13, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -5710,7 +5710,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 38316db23e02d104299c4579b2a68d28, type: 2}
+      objectReference: {fileID: 11400000, guid: 0a15283f6dd410040878831587175f20, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -5829,7 +5829,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 130df0ce735c0ea46ae261ff49ae44bd, type: 2}
+      objectReference: {fileID: 11400000, guid: 4a5b063a7b8b4e94b8a2aa1a1fe1f014, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -5948,7 +5948,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 1b10568a81eb87945a1b4baa011e489d, type: 2}
+      objectReference: {fileID: 11400000, guid: 2ef08d12405ac694d8708f52ca6dee9f, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -6420,7 +6420,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 004ed7f59a4d30a4ea683bf531636e15, type: 2}
+      objectReference: {fileID: 11400000, guid: 4260af6db9662954caa0163eeec66c78, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -6529,7 +6529,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: a14ee21370e14774682dc2b97859500b, type: 2}
+      objectReference: {fileID: 11400000, guid: b10f16d8b389800499dfe1281f861466, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -6718,7 +6718,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: f503ee3aef447bf4090379b37a61e3f2, type: 2}
+      objectReference: {fileID: 11400000, guid: ca00a37d9ae29c74db6182e02bd0dd20, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -6912,7 +6912,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 2cfde959632981b43b3e0e3fd8bb2f9b, type: 2}
+      objectReference: {fileID: 11400000, guid: c5d4dae2081cb6840a7718a4168ee566, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -6992,8 +6992,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7058,8 +7058,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1713674083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.37, y: 0}
-  m_AnchorMax: {x: 0.99, y: 0.2}
+  m_AnchorMin: {x: 0.31, y: 0}
+  m_AnchorMax: {x: 0.99, y: 0.12}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7244,7 +7244,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 322e0a187715e38429ad873463b80ec5, type: 2}
+      objectReference: {fileID: 11400000, guid: af3cdf2139e0760419ce2b77a1b59435, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -7368,7 +7368,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: a793ea0b60497eb4d85a2ce7656cdf4f, type: 2}
+      objectReference: {fileID: 11400000, guid: c6ab29f14643288459219adbcc5a968a, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -7477,7 +7477,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: b87f2ae07aa4cc64b858f9723220d2ef, type: 2}
+      objectReference: {fileID: 11400000, guid: 00a8221a530937c4da8b99731aa4a5ac, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7582,7 +7582,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: d136a182f7a770c4da3fa79941ba59a4, type: 2}
+      objectReference: {fileID: 11400000, guid: 84d7221acd6610c46b736230f363077f, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -7696,7 +7696,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 2aa646f841224534c8fb04df24f1abe2, type: 2}
+      objectReference: {fileID: 11400000, guid: e3e4b16638603914a9595fa20fe6c60b, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -7805,7 +7805,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 6558f08c6f46c374ba7fa2f69c4e6b4c, type: 2}
+      objectReference: {fileID: 11400000, guid: 47a1934b19c2a5f4a927c95eceb4c70c, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -7914,7 +7914,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 88fd71df628797649b02c69da4f012c0, type: 2}
+      objectReference: {fileID: 11400000, guid: 3cbee86690ec4a24aa3de12d6e4ae167, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -8023,7 +8023,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: fdd63f75afdab0a499cca1628ba99ad9, type: 2}
+      objectReference: {fileID: 11400000, guid: 9fb4a2eecd743084d9b104bd062e714e, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -8132,7 +8132,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 9379d09ded3735249807025ed61bc927, type: 2}
+      objectReference: {fileID: 11400000, guid: 01181f4f9918f0a459e4ac477032834a, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -8390,7 +8390,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c11beadbe5229d44f8870fc7a07e6e9a, type: 2}
+      objectReference: {fileID: 11400000, guid: 114a3f2c31fe9e84082012ee34feb989, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -8670,7 +8670,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 2b7b278eeb95575458b0acdae4bc72cc, type: 2}
+      objectReference: {fileID: 11400000, guid: f3f5ccd08b0f43f44b8f2544dde69b0c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8792,7 +8792,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 8ae98c9235cc93d48abbd900cacbf40d, type: 2}
+      objectReference: {fileID: 11400000, guid: 5c1cbb55f4d8dca459c98aeededbff51, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -9193,7 +9193,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c69ad9513bea00941b01346e13a6c4be, type: 2}
+      objectReference: {fileID: 11400000, guid: ad135cafa65515640941aad650186324, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9236,7 +9236,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 417925452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.02, y: 0.2}
+  m_AnchorMin: {x: 0.02, y: 0.12}
   m_AnchorMax: {x: 0.98, y: 0.98}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -9288,8 +9288,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9444,7 +9444,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 89688d2519199c842b9a33fb7d99b02e, type: 2}
+      objectReference: {fileID: 11400000, guid: 7d102259f22628643a12da31e8fd0b60, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -9569,7 +9569,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c404777a8b5a34842a0418b496ac25a8, type: 2}
+      objectReference: {fileID: 11400000, guid: ed97bb5665beaa04491169cf0026d6dd, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -9705,7 +9705,7 @@ RectTransform:
   m_Father: {fileID: 1713674083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02, y: 0}
-  m_AnchorMax: {x: 0.36, y: 0.2}
+  m_AnchorMax: {x: 0.31, y: 0.12}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9756,8 +9756,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9990,7 +9990,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 89ece528d274fc348bf176084ccaa1d4, type: 2}
+      objectReference: {fileID: 11400000, guid: 665efec630a8da044aa57c08391a3255, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10174,7 +10174,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: fac4616b65ffe0e489b9298a315f17a9, type: 2}
+      objectReference: {fileID: 11400000, guid: 13c619e7fff05874e86e474298cb09c7, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10288,7 +10288,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: afcd7cb0c85dedc499f6c827257336d6, type: 2}
+      objectReference: {fileID: 11400000, guid: 8d56bfcaa5f2bc043902197dc69ff916, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10402,7 +10402,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: d65d4ec2a7e22cc4489a3ec0940e3e80, type: 2}
+      objectReference: {fileID: 11400000, guid: 02a9b35e4a433aa4a909b396345edd09, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10516,7 +10516,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 3dc1a0b592fa9334d9f068440f1aed1c, type: 2}
+      objectReference: {fileID: 11400000, guid: 0907fc9e2ff0ec14480c79fa20344bcd, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10625,7 +10625,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 77d109a3a3f648a4db4051b3c1247169, type: 2}
+      objectReference: {fileID: 11400000, guid: 9feb80646d005284b8771a30e211cce6, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10840,7 +10840,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 663d69ee8fac5e845882177509a8a613, type: 2}
+      objectReference: {fileID: 11400000, guid: 3b0d91dcc904648468662635e7e76301, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -10949,7 +10949,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: a3584122461d12449a508c8e29a4f95e, type: 2}
+      objectReference: {fileID: 11400000, guid: 111377585bf40cc4b9c6b87f9d1428b3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11200,8 +11200,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 417925452}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.34, y: 0}
-  m_AnchorMax: {x: 0.99, y: 0.2}
+  m_AnchorMin: {x: 0.28, y: 0}
+  m_AnchorMax: {x: 0.99, y: 0.12}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11252,8 +11252,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11412,7 +11412,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 7e560d83c735a80468ce81b925c7bbe6, type: 2}
+      objectReference: {fileID: 11400000, guid: 4eac663c8ebb50544922a551bd65aff4, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -11706,7 +11706,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c1fadf3b9558794469acf6b34f5a0fac, type: 2}
+      objectReference: {fileID: 11400000, guid: 906b2ebbb2a789343b455732df7becf2, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -11815,7 +11815,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 3ce8c201934ab3343816a01f346718eb, type: 2}
+      objectReference: {fileID: 11400000, guid: a8bb4a912b644fc429a5b05caa2566d6, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -11924,7 +11924,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 03030318860c1a341b725584db929f4b, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: 2d33812c5785f8847b6131ac0c3fb1ae, type: 2}
+      objectReference: {fileID: 11400000, guid: c7d76df35d9bc6048be2cf4e4b339721, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12029,7 +12029,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: c2eef91c638708746a389f61b5f4f835, type: 2}
+      objectReference: {fileID: 11400000, guid: 7312d43b4c8b7ec48b259f6c427c1937, type: 2}
     - target: {fileID: 6506159224773634348, guid: 4b0e365765523dd46954f6870e62ba5c, type: 3}
       propertyPath: _plantCardRender
       value: 
@@ -12154,7 +12154,7 @@ PrefabInstance:
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 11400000, guid: bb75e2df384841241a32b78a37e2d624, type: 2}
+      objectReference: {fileID: 11400000, guid: 68e824e7baaa07445a84ef801e62dbe9, type: 2}
     - target: {fileID: 6506159224773634348, guid: 85774fe60ed0f1a49b6dfd331cfcaa06, type: 3}
       propertyPath: _plantCardRender
       value: 

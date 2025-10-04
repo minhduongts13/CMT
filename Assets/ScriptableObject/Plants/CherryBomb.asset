@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: CherryBomb
   m_EditorClassIdentifier: 
-  _cost: 150
-  _almanacImage: {fileID: 3336554275580186400, guid: 19b18b4e9ae60be498347714dcea17de, type: 3}
   _name: CherryBomb
+  _cardIcon: {fileID: 3336554275580186400, guid: 19b18b4e9ae60be498347714dcea17de, type: 3}
+  _cost: 150
+  _damage: 1800
+  _toughness: -1
+  _recharge: 50
+  _range: 0
+  _actionRate: 0
+  _speed: 0
+  _almanacImage: {fileID: 3336554275580186400, guid: 19b18b4e9ae60be498347714dcea17de, type: 3}
   _ingameImage: {fileID: 3336554275580186400, guid: 4e772c1f06654424796ed2c3ec8ed999, type: 3}
-  _recharge: 1
   _description: Cherry Bomb will self-destruct after placing.
-  _damage: 1000
-  _toughness: 0
-  _sunProduction: 0
+  _materialProduction: 0
   _special: blow up all zombies in an area.
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

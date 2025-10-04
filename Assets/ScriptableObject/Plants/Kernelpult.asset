@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Kernelpult
   m_EditorClassIdentifier: 
-  _cost: 100
-  _almanacImage: {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}
   _name: Kernelpult
+  _cardIcon: {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}
+  _cost: 100
+  _damage: 20
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 3
+  _almanacImage: {fileID: 1474836094478455521, guid: ef848c76b2b5be64982e18a21b7f1200, type: 3}
   _ingameImage: {fileID: 8344327837463176430, guid: 92b90bf67df0a9e4b819c17622de8e41, type: 3}
-  _recharge: 0.5
   _description: Kernel-pults fling corn kernets and butter at zombies.
-  _damage: 100
-  _toughness: 0
   _materialProduction: 0
   _special: butter immobilizer zombies
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

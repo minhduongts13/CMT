@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Fume-shroom
   m_EditorClassIdentifier: 
-  _cost: 75
-  _almanacImage: {fileID: -8874767014459583263, guid: 1b6ae919ffdccf14591cbbdd3662a2c0, type: 3}
   _name: Fume-shroom
+  _cardIcon: {fileID: -8874767014459583263, guid: 1b6ae919ffdccf14591cbbdd3662a2c0, type: 3}
+  _cost: 75
+  _damage: 20
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 2
+  _almanacImage: {fileID: -8874767014459583263, guid: 1b6ae919ffdccf14591cbbdd3662a2c0, type: 3}
   _ingameImage: {fileID: -2851848536063361713, guid: 30ac9224b1a43694a881a415d34874e9, type: 3}
-  _recharge: 0.15
   _description: Fume-shrooms shoot fumes that can pas through screen doors.
-  _damage: 100
-  _toughness: 0
   _materialProduction: 0
   _special: 
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

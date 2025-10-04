@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Magnet-shroom
   m_EditorClassIdentifier: 
-  _cost: 100
-  _almanacImage: {fileID: 3684270628297136737, guid: 6164824555da2fa43b8f95ae6b0bb40f, type: 3}
   _name: Magnet-shroom
-  _ingameImage: {fileID: -6728659689131062258, guid: c599beac7246b9444ac00782a52c3ef2, type: 3}
-  _recharge: 0.8
-  _description: Magnet-shrooms remove helmets and other metal objects from zombies.
+  _cardIcon: {fileID: 3684270628297136737, guid: 6164824555da2fa43b8f95ae6b0bb40f, type: 3}
+  _cost: 100
   _damage: 0
-  _toughness: 0
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 15
+  _almanacImage: {fileID: 3684270628297136737, guid: 6164824555da2fa43b8f95ae6b0bb40f, type: 3}
+  _ingameImage: {fileID: -6728659689131062258, guid: c599beac7246b9444ac00782a52c3ef2, type: 3}
+  _description: Magnet-shrooms remove helmets and other metal objects from zombies.
   _materialProduction: 0
-  _special: 
+  _special: Attract metal
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

@@ -9,19 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Snow pea
   m_EditorClassIdentifier: 
-  _cost: 175
-  _almanacImage: {fileID: 1700536479391938751, guid: d9ca7480bc0df6745a226674c3fd0364, type: 3}
   _name: Snow pea
-  _ingameImage: {fileID: 1700536479391938751, guid: 43933170a91a66c479666183d3ef1c09, type: 3}
+  _cardIcon: {fileID: 1700536479391938751, guid: d9ca7480bc0df6745a226674c3fd0364, type: 3}
+  _cost: 175
+  _damage: 20
+  _toughness: 300
   _recharge: 0
+  _range: 0
+  _actionRate: 0
+  _speed: 1.5
+  _almanacImage: {fileID: 1700536479391938751, guid: d9ca7480bc0df6745a226674c3fd0364, type: 3}
+  _ingameImage: {fileID: 1700536479391938751, guid: 43933170a91a66c479666183d3ef1c09, type: 3}
   _description: Snow peas shoot frozen peas that damage and slow the enemy.
-  _damage: 125
-  _toughness: 0
   _materialProduction: 0
-  _special: shows zombies
+  _special: slows zombies
   _mergeMaterial:
   - {fileID: -3070453432627086885, guid: 2fa579922096918429030a2627b523fc, type: 3}
   - {fileID: -6559099025263312626, guid: 548f14d9b3f2a744cb8231bab18ea0c4, type: 3}
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

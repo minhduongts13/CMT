@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Torchwood
   m_EditorClassIdentifier: 
-  _cost: 175
-  _almanacImage: {fileID: -5890867567501359090, guid: 49e86db697dc977469ed88542cc02441, type: 3}
   _name: Torchwood
-  _ingameImage: {fileID: -5890867567501359090, guid: a71b9c711f32199488436bf22ed6ac9f, type: 3}
-  _recharge: 0.8
-  _description: Torchwood turn peas that pass through them into fireballs.
+  _cardIcon: {fileID: -5890867567501359090, guid: 49e86db697dc977469ed88542cc02441, type: 3}
+  _cost: 175
   _damage: 0
-  _toughness: 0
+  _toughness: 300
+  _recharge: 7.5
+  _range: 0
+  _actionRate: 0
+  _speed: 0
+  _almanacImage: {fileID: -5890867567501359090, guid: 49e86db697dc977469ed88542cc02441, type: 3}
+  _ingameImage: {fileID: -5890867567501359090, guid: a71b9c711f32199488436bf22ed6ac9f, type: 3}
+  _description: Torchwood turn peas that pass through them into fireballs.
   _materialProduction: 0
   _special: Fireballs deal twice as much as damage to nearby zombies on impact
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

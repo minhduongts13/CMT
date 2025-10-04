@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37b6115796c33e4ab3d9d1629d2bbc9, type: 3}
+  m_Name: Pole Vaulting Zombie
+  m_EditorClassIdentifier: 
+  _name: Pole Vaulting Zombie
+  _cardIcon: {fileID: -656963211351569828, guid: 92005917f42df6340959fce9e0b38805, type: 3}
+  _cost: 75
+  _damage: 50
+  _toughness: 340
+  _recharge: 0
+  _range: 0
+  _actionRate: 5
+  _speed: 0
+  _almanacImage: {fileID: -656963211351569828, guid: 92005917f42df6340959fce9e0b38805, type: 3}
+  _ingameImage: {fileID: 7414742221073971987, guid: eddca932a7c84b5459001154d7aa2e02, type: 3}
+  _description: Pole Vaulting Zombie run fast then normal after jump.
+  _materialProduction: 0
+  _special: jumps the first plant he runs into
+  _mergeMaterial: []
+  _zombiePrefab: {fileID: 0}
+  _state:
+  - 170

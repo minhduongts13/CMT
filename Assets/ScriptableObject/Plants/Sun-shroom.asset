@@ -9,16 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
   m_Name: Sun-shroom
   m_EditorClassIdentifier: 
+  _name: Sun-shroom
+  _cardIcon: {fileID: -5930801289693600483, guid: 60103c9549405f6488d0d610de34cfb8, type: 3}
   _cost: 25
-  _almanacImage: {fileID: -5930801289693600483, guid: 60103c9549405f6488d0d610de34cfb8, type: 3}
-  _name: Sh-room
-  _ingameImage: {fileID: 8641574373380745171, guid: a1363fecfe80f3e4cb50dfe497804752, type: 3}
-  _recharge: 0.1
-  _description: Sun-shrooms give small sun at first and normal sun later.
   _damage: 0
-  _toughness: 0
-  _materialProduction: 1
+  _toughness: 300
+  _recharge: 75
+  _range: 0
+  _actionRate: 0
+  _speed: 24.25
+  _almanacImage: {fileID: -5930801289693600483, guid: 60103c9549405f6488d0d610de34cfb8, type: 3}
+  _ingameImage: {fileID: 8641574373380745171, guid: a1363fecfe80f3e4cb50dfe497804752, type: 3}
+  _description: Sun-shrooms give small sun at first and normal sun later.
+  _materialProduction: 25
   _special: can grow up
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

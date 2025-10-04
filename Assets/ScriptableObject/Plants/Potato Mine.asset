@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd661f3430684ad4487e7e661db25c30, type: 3}
+  m_Name: Potato Mine
+  m_EditorClassIdentifier: 
+  _name: Potato Mine
+  _cardIcon: {fileID: -3987954987491192329, guid: 375d626282ff2b34b8f7555141798a90, type: 3}
+  _cost: 25
+  _damage: 1800
+  _toughness: 300
+  _recharge: 30
+  _range: 0
+  _actionRate: 0
+  _speed: 15
+  _almanacImage: {fileID: -3987954987491192329, guid: 375d626282ff2b34b8f7555141798a90, type: 3}
+  _ingameImage: {fileID: -3987954987491192329, guid: c3f7707a8f36aa1449505a5e096af8f0, type: 3}
+  _description: Potato Mines pack a powerful punch, but they need a while to arm
+    themselves.
+  _materialProduction: 0
+  _special: explode all zombies on contact in an small area.
+  _mergeMaterial: []
+  _plantPrefab: {fileID: 0}
+  _bullet: {fileID: 0}
+  _zombieLayer:
+    serializedVersion: 2
+    m_Bits: 0

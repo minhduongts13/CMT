@@ -9,16 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e0dc667cc33f94ea2ae0215dc43825, type: 3}
+  m_Script: {fileID: 11500000, guid: d37b6115796c33e4ab3d9d1629d2bbc9, type: 3}
   m_Name: Flag Zombie
   m_EditorClassIdentifier: 
-  _cost: 300
-  _almanacImage: {fileID: 3078051009338526225, guid: 846eee3583f80f640b502c1420fa3d35, type: 3}
   _name: Flag Zombie
+  _cardIcon: {fileID: 3078051009338526225, guid: 846eee3583f80f640b502c1420fa3d35, type: 3}
+  _cost: 25
+  _damage: 50
+  _toughness: 190
+  _recharge: 0
+  _range: 0
+  _actionRate: 0.5
+  _speed: 0
+  _almanacImage: {fileID: 3078051009338526225, guid: 846eee3583f80f640b502c1420fa3d35, type: 3}
   _ingameImage: {fileID: 8080566455321732982, guid: 4e6dc7e9bc8215c4c969f63ce0b6eab4, type: 3}
-  _recharge: 2
   _description: Flag Zombie marks the arrival of a huge pile of zombies.
-  _damage: 0
-  _toughness: 10
   _materialProduction: 0
   _special: can spawn zombies from grave.
+  _mergeMaterial: []
+  _zombiePrefab: {fileID: 0}
+  _state:
+  - 95
